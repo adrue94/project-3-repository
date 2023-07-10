@@ -1,4 +1,4 @@
-State,State_Abbreviation,Education_Level_of_Mother,Education_Level_Code,Number_of_Births
+State,State_Abbreviation,EduLevel,EduLevelCode,Births
 Alaska,AK,8th grade or less,1,2448
 Alaska,AK,9th through 12th grade with no diploma,2,30894
 Alaska,AK,"Associate degree (AA, AS)",5,29574
