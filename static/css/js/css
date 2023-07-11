@@ -1,6 +1,6 @@
 .canvas-interactive-wrapper {
     position: relative;
-    height: 300px;
+    height: 100px;
     text-align: center;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .canvas-interactive-wrapper .cta-wrapper {
-    margin-top: 130px;
+    margin-left: 130px;
 }
 
 .canvas-interactive-wrapper .cta-wrapper a {
