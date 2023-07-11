@@ -1,0 +1,865 @@
+,index,State,State_Abbreviation,Year,Gender,Education_Level_of_Mother,Education_Level_Code,Number_of_Births,Average_Age_of_Mother_(years),Average_Birth_Weight_(g)
+0,108,Alaska,AK,2016,F,8th grade or less,1,32,28.2,3396.0
+1,109,Alaska,AK,2016,F,9th through 12th grade with no diploma,2,491,24.5,3288.1
+2,110,Alaska,AK,2016,F,High school graduate or GED completed,3,1603,26.2,3321.2
+3,111,Alaska,AK,2016,F,"Some college credit, but not a degree",4,1442,27.8,3369.0
+4,112,Alaska,AK,2016,F,"Associate degree (AA, AS)",5,438,29.7,3370.3
+5,113,Alaska,AK,2016,F,"Bachelor's degree (BA, AB, BS)",6,892,31.0,3353.1
+6,114,Alaska,AK,2016,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,379,32.8,3371.1
+7,115,Alaska,AK,2016,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,86,33.5,3303.1
+8,116,Alaska,AK,2016,F,Unknown or Not Stated,-9,81,29.4,3344.0
+9,117,Alaska,AK,2016,M,8th grade or less,1,44,28.2,3263.0
+10,118,Alaska,AK,2016,M,9th through 12th grade with no diploma,2,559,24.3,3347.5
+11,119,Alaska,AK,2016,M,High school graduate or GED completed,3,1743,26.1,3436.5
+12,120,Alaska,AK,2016,M,"Some college credit, but not a degree",4,1469,28.0,3485.8
+13,121,Alaska,AK,2016,M,"Associate degree (AA, AS)",5,468,29.4,3482.9
+14,122,Alaska,AK,2016,M,"Bachelor's degree (BA, AB, BS)",6,956,31.0,3473.1
+15,123,Alaska,AK,2016,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,340,33.1,3467.9
+16,124,Alaska,AK,2016,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,101,34.4,3505.4
+17,125,Alaska,AK,2016,M,Unknown or Not Stated,-9,85,29.6,3412.2
+18,126,Alaska,AK,2017,F,8th grade or less,1,45,28.3,3077.3
+19,127,Alaska,AK,2017,F,9th through 12th grade with no diploma,2,466,24.0,3241.4
+20,128,Alaska,AK,2017,F,High school graduate or GED completed,3,1522,26.6,3321.5
+21,129,Alaska,AK,2017,F,"Some college credit, but not a degree",4,1323,27.8,3358.6
+22,130,Alaska,AK,2017,F,"Associate degree (AA, AS)",5,420,30.0,3365.0
+23,131,Alaska,AK,2017,F,"Bachelor's degree (BA, AB, BS)",6,796,31.3,3373.7
+24,132,Alaska,AK,2017,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,362,33.4,3391.9
+25,133,Alaska,AK,2017,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,93,34.0,3280.6
+26,134,Alaska,AK,2017,F,Unknown or Not Stated,-9,71,29.1,3082.5
+27,135,Alaska,AK,2017,M,8th grade or less,1,43,27.9,3315.0
+28,136,Alaska,AK,2017,M,9th through 12th grade with no diploma,2,476,24.6,3373.2
+29,137,Alaska,AK,2017,M,High school graduate or GED completed,3,1575,26.5,3447.3
+30,138,Alaska,AK,2017,M,"Some college credit, but not a degree",4,1400,28.1,3459.8
+31,139,Alaska,AK,2017,M,"Associate degree (AA, AS)",5,424,29.8,3455.8
+32,140,Alaska,AK,2017,M,"Bachelor's degree (BA, AB, BS)",6,926,31.4,3486.8
+33,141,Alaska,AK,2017,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,326,33.4,3512.2
+34,142,Alaska,AK,2017,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,92,34.4,3381.3
+35,143,Alaska,AK,2017,M,Unknown or Not Stated,-9,85,29.3,3337.0
+36,144,Alaska,AK,2018,F,8th grade or less,1,36,28.1,3331.6
+37,145,Alaska,AK,2018,F,9th through 12th grade with no diploma,2,439,24.6,3208.9
+38,146,Alaska,AK,2018,F,High school graduate or GED completed,3,1430,26.5,3336.9
+39,147,Alaska,AK,2018,F,"Some college credit, but not a degree",4,1242,28.2,3353.2
+40,148,Alaska,AK,2018,F,"Associate degree (AA, AS)",5,408,30.1,3358.2
+41,149,Alaska,AK,2018,F,"Bachelor's degree (BA, AB, BS)",6,838,31.4,3398.0
+42,150,Alaska,AK,2018,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,331,33.3,3408.3
+43,151,Alaska,AK,2018,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,96,34.0,3406.1
+44,152,Alaska,AK,2018,F,Unknown or Not Stated,-9,58,29.7,3298.1
+45,153,Alaska,AK,2018,M,8th grade or less,1,27,28.8,3254.3
+46,154,Alaska,AK,2018,M,9th through 12th grade with no diploma,2,441,25.2,3343.2
+47,155,Alaska,AK,2018,M,High school graduate or GED completed,3,1591,26.5,3448.0
+48,156,Alaska,AK,2018,M,"Some college credit, but not a degree",4,1314,28.3,3464.2
+49,157,Alaska,AK,2018,M,"Associate degree (AA, AS)",5,430,30.0,3491.6
+50,158,Alaska,AK,2018,M,"Bachelor's degree (BA, AB, BS)",6,899,31.3,3474.1
+51,159,Alaska,AK,2018,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,312,33.3,3499.7
+52,160,Alaska,AK,2018,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,113,34.3,3412.3
+53,161,Alaska,AK,2018,M,Unknown or Not Stated,-9,81,28.7,3247.4
+54,162,Alaska,AK,2019,F,8th grade or less,1,35,29.8,3209.7
+55,163,Alaska,AK,2019,F,9th through 12th grade with no diploma,2,385,25.2,3155.5
+56,164,Alaska,AK,2019,F,High school graduate or GED completed,3,1421,26.6,3322.8
+57,165,Alaska,AK,2019,F,"Some college credit, but not a degree",4,1191,28.2,3368.6
+58,166,Alaska,AK,2019,F,"Associate degree (AA, AS)",5,365,30.3,3384.8
+59,167,Alaska,AK,2019,F,"Bachelor's degree (BA, AB, BS)",6,801,31.6,3370.0
+60,168,Alaska,AK,2019,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,327,33.6,3353.8
+61,169,Alaska,AK,2019,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,111,34.2,3343.2
+62,170,Alaska,AK,2019,F,Unknown or Not Stated,-9,67,29.4,3358.9
+63,171,Alaska,AK,2019,M,8th grade or less,1,33,29.8,3283.4
+64,172,Alaska,AK,2019,M,9th through 12th grade with no diploma,2,445,25.1,3315.6
+65,173,Alaska,AK,2019,M,High school graduate or GED completed,3,1580,26.9,3410.0
+66,174,Alaska,AK,2019,M,"Some college credit, but not a degree",4,1255,28.3,3447.6
+67,175,Alaska,AK,2019,M,"Associate degree (AA, AS)",5,411,30.0,3460.2
+68,176,Alaska,AK,2019,M,"Bachelor's degree (BA, AB, BS)",6,874,31.6,3486.6
+69,177,Alaska,AK,2019,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,309,33.0,3481.3
+70,178,Alaska,AK,2019,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,110,34.8,3421.2
+71,179,Alaska,AK,2019,M,Unknown or Not Stated,-9,102,28.6,3233.0
+72,180,Alaska,AK,2020,F,8th grade or less,1,22,28.9,3301.1
+73,181,Alaska,AK,2020,F,9th through 12th grade with no diploma,2,370,25.8,3212.7
+74,182,Alaska,AK,2020,F,High school graduate or GED completed,3,1472,26.7,3311.5
+75,183,Alaska,AK,2020,F,"Some college credit, but not a degree",4,1143,28.4,3321.2
+76,184,Alaska,AK,2020,F,"Associate degree (AA, AS)",5,389,30.3,3313.8
+77,185,Alaska,AK,2020,F,"Bachelor's degree (BA, AB, BS)",6,786,31.3,3342.6
+78,186,Alaska,AK,2020,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,300,33.4,3327.7
+79,187,Alaska,AK,2020,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,114,34.4,3303.8
+80,188,Alaska,AK,2020,F,Unknown or Not Stated,-9,69,28.0,3205.0
+81,189,Alaska,AK,2020,M,8th grade or less,1,31,29.2,3423.2
+82,190,Alaska,AK,2020,M,9th through 12th grade with no diploma,2,365,26.0,3401.2
+83,191,Alaska,AK,2020,M,High school graduate or GED completed,3,1522,26.7,3427.1
+84,192,Alaska,AK,2020,M,"Some college credit, but not a degree",4,1157,28.4,3447.4
+85,193,Alaska,AK,2020,M,"Associate degree (AA, AS)",5,424,30.2,3498.1
+86,194,Alaska,AK,2020,M,"Bachelor's degree (BA, AB, BS)",6,793,31.5,3481.4
+87,195,Alaska,AK,2020,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,312,33.1,3452.3
+88,196,Alaska,AK,2020,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,116,34.3,3482.4
+89,197,Alaska,AK,2020,M,Unknown or Not Stated,-9,84,29.2,3255.4
+90,198,Alaska,AK,2021,F,8th grade or less,1,31,28.2,3178.6
+91,199,Alaska,AK,2021,F,9th through 12th grade with no diploma,2,323,24.6,3301.0
+92,200,Alaska,AK,2021,F,High school graduate or GED completed,3,1366,26.9,3310.0
+93,201,Alaska,AK,2021,F,"Some college credit, but not a degree",4,1096,28.4,3346.9
+94,202,Alaska,AK,2021,F,"Associate degree (AA, AS)",5,369,30.6,3332.5
+95,203,Alaska,AK,2021,F,"Bachelor's degree (BA, AB, BS)",6,804,31.4,3324.8
+96,204,Alaska,AK,2021,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,320,33.6,3334.7
+97,205,Alaska,AK,2021,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,121,34.4,3302.6
+98,206,Alaska,AK,2021,F,Unknown or Not Stated,-9,78,29.5,3060.2
+99,207,Alaska,AK,2021,M,8th grade or less,1,29,30.5,3146.0
+100,208,Alaska,AK,2021,M,9th through 12th grade with no diploma,2,389,25.1,3337.1
+101,209,Alaska,AK,2021,M,High school graduate or GED completed,3,1482,26.7,3399.6
+102,210,Alaska,AK,2021,M,"Some college credit, but not a degree",4,1161,28.4,3428.2
+103,211,Alaska,AK,2021,M,"Associate degree (AA, AS)",5,383,30.2,3440.4
+104,212,Alaska,AK,2021,M,"Bachelor's degree (BA, AB, BS)",6,893,31.7,3472.7
+105,213,Alaska,AK,2021,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,334,33.8,3486.5
+106,214,Alaska,AK,2021,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,98,33.9,3426.2
+107,215,Alaska,AK,2021,M,Unknown or Not Stated,-9,90,29.1,3251.2
+108,432,California,CA,2016,F,8th grade or less,1,9981,31.4,3253.9
+109,433,California,CA,2016,F,9th through 12th grade with no diploma,2,23614,26.6,3214.7
+110,434,California,CA,2016,F,High school graduate or GED completed,3,57435,27.1,3235.8
+111,435,California,CA,2016,F,"Some college credit, but not a degree",4,47094,28.4,3239.1
+112,436,California,CA,2016,F,"Associate degree (AA, AS)",5,15512,30.5,3256.2
+113,437,California,CA,2016,F,"Bachelor's degree (BA, AB, BS)",6,45550,32.3,3253.0
+114,438,California,CA,2016,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,20235,33.4,3240.1
+115,439,California,CA,2016,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,6741,34.7,3223.9
+116,440,California,CA,2016,F,Unknown or Not Stated,-9,12246,30.6,3200.7
+117,441,California,CA,2016,M,8th grade or less,1,10245,31.4,3345.4
+118,442,California,CA,2016,M,9th through 12th grade with no diploma,2,24405,26.6,3309.0
+119,443,California,CA,2016,M,High school graduate or GED completed,3,59967,27.1,3335.3
+120,444,California,CA,2016,M,"Some college credit, but not a degree",4,49404,28.4,3349.0
+121,445,California,CA,2016,M,"Associate degree (AA, AS)",5,16283,30.4,3358.5
+122,446,California,CA,2016,M,"Bachelor's degree (BA, AB, BS)",6,48516,32.2,3364.6
+123,447,California,CA,2016,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,21445,33.4,3354.4
+124,448,California,CA,2016,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,7042,34.6,3324.8
+125,449,California,CA,2016,M,Unknown or Not Stated,-9,13112,30.6,3308.0
+126,450,California,CA,2017,F,8th grade or less,1,9023,31.3,3246.0
+127,451,California,CA,2017,F,9th through 12th grade with no diploma,2,21081,27.0,3219.8
+128,452,California,CA,2017,F,High school graduate or GED completed,3,55492,27.2,3229.8
+129,453,California,CA,2017,F,"Some college credit, but not a degree",4,45345,28.6,3241.9
+130,454,California,CA,2017,F,"Associate degree (AA, AS)",5,14970,30.6,3251.0
+131,455,California,CA,2017,F,"Bachelor's degree (BA, AB, BS)",6,45727,32.4,3251.1
+132,456,California,CA,2017,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,20082,33.6,3243.9
+133,457,California,CA,2017,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,6639,34.8,3218.0
+134,458,California,CA,2017,F,Unknown or Not Stated,-9,11401,30.9,3205.3
+135,459,California,CA,2017,M,8th grade or less,1,9238,31.4,3331.5
+136,460,California,CA,2017,M,9th through 12th grade with no diploma,2,22095,26.9,3301.8
+137,461,California,CA,2017,M,High school graduate or GED completed,3,57487,27.2,3329.7
+138,462,California,CA,2017,M,"Some college credit, but not a degree",4,47897,28.6,3347.6
+139,463,California,CA,2017,M,"Associate degree (AA, AS)",5,15877,30.5,3351.0
+140,464,California,CA,2017,M,"Bachelor's degree (BA, AB, BS)",6,48441,32.4,3361.6
+141,465,California,CA,2017,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,21374,33.5,3347.8
+142,466,California,CA,2017,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,7064,34.7,3326.7
+143,467,California,CA,2017,M,Unknown or Not Stated,-9,12425,31.0,3291.9
+144,468,California,CA,2018,F,8th grade or less,1,8265,31.3,3253.3
+145,469,California,CA,2018,F,9th through 12th grade with no diploma,2,19133,27.2,3205.4
+146,470,California,CA,2018,F,High school graduate or GED completed,3,53314,27.4,3232.9
+147,471,California,CA,2018,F,"Some college credit, but not a degree",4,43584,28.8,3240.8
+148,472,California,CA,2018,F,"Associate degree (AA, AS)",5,14621,30.6,3243.2
+149,473,California,CA,2018,F,"Bachelor's degree (BA, AB, BS)",6,44835,32.5,3252.6
+150,474,California,CA,2018,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,20175,33.7,3238.3
+151,475,California,CA,2018,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,6774,34.8,3220.2
+152,476,California,CA,2018,F,Unknown or Not Stated,-9,11830,31.0,3190.4
+153,477,California,CA,2018,M,8th grade or less,1,8452,31.4,3328.1
+154,478,California,CA,2018,M,9th through 12th grade with no diploma,2,19711,27.2,3307.4
+155,479,California,CA,2018,M,High school graduate or GED completed,3,55222,27.4,3327.5
+156,480,California,CA,2018,M,"Some college credit, but not a degree",4,45121,28.8,3341.5
+157,481,California,CA,2018,M,"Associate degree (AA, AS)",5,15251,30.8,3353.9
+158,482,California,CA,2018,M,"Bachelor's degree (BA, AB, BS)",6,47166,32.5,3364.0
+159,483,California,CA,2018,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,21646,33.6,3350.9
+160,484,California,CA,2018,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,7138,34.8,3339.4
+161,485,California,CA,2018,M,Unknown or Not Stated,-9,12682,31.1,3298.6
+162,486,California,CA,2019,F,8th grade or less,1,7278,31.2,3234.4
+163,487,California,CA,2019,F,9th through 12th grade with no diploma,2,17231,27.5,3204.5
+164,488,California,CA,2019,F,High school graduate or GED completed,3,51369,27.5,3224.5
+165,489,California,CA,2019,F,"Some college credit, but not a degree",4,41911,28.9,3239.9
+166,490,California,CA,2019,F,"Associate degree (AA, AS)",5,14383,30.8,3242.5
+167,491,California,CA,2019,F,"Bachelor's degree (BA, AB, BS)",6,44430,32.5,3244.1
+168,492,California,CA,2019,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,20374,33.7,3231.7
+169,493,California,CA,2019,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,6844,34.9,3206.7
+170,494,California,CA,2019,F,Unknown or Not Stated,-9,13456,31.1,3183.6
+171,495,California,CA,2019,M,8th grade or less,1,7632,31.2,3311.5
+172,496,California,CA,2019,M,9th through 12th grade with no diploma,2,18052,27.3,3302.7
+173,497,California,CA,2019,M,High school graduate or GED completed,3,54019,27.5,3323.1
+174,498,California,CA,2019,M,"Some college credit, but not a degree",4,43524,29.0,3339.2
+175,499,California,CA,2019,M,"Associate degree (AA, AS)",5,15469,30.7,3355.6
+176,500,California,CA,2019,M,"Bachelor's degree (BA, AB, BS)",6,47107,32.6,3353.1
+177,501,California,CA,2019,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,21683,33.7,3336.5
+178,502,California,CA,2019,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,7226,34.8,3325.6
+179,503,California,CA,2019,M,Unknown or Not Stated,-9,14491,31.2,3282.9
+180,504,California,CA,2020,F,8th grade or less,1,6716,31.3,3223.7
+181,505,California,CA,2020,F,9th through 12th grade with no diploma,2,15306,27.5,3202.5
+182,506,California,CA,2020,F,High school graduate or GED completed,3,48899,27.7,3231.5
+183,507,California,CA,2020,F,"Some college credit, but not a degree",4,38645,29.1,3240.8
+184,508,California,CA,2020,F,"Associate degree (AA, AS)",5,13978,30.8,3253.8
+185,509,California,CA,2020,F,"Bachelor's degree (BA, AB, BS)",6,42045,32.6,3249.7
+186,510,California,CA,2020,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,19484,33.8,3232.4
+187,511,California,CA,2020,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,6516,34.9,3204.3
+188,512,California,CA,2020,F,Unknown or Not Stated,-9,13892,31.0,3187.7
+189,513,California,CA,2020,M,8th grade or less,1,6691,31.2,3325.2
+190,514,California,CA,2020,M,9th through 12th grade with no diploma,2,15921,27.6,3286.6
+191,515,California,CA,2020,M,High school graduate or GED completed,3,50915,27.6,3327.6
+192,516,California,CA,2020,M,"Some college credit, but not a degree",4,40223,29.1,3339.1
+193,517,California,CA,2020,M,"Associate degree (AA, AS)",5,14387,30.8,3362.7
+194,518,California,CA,2020,M,"Bachelor's degree (BA, AB, BS)",6,44311,32.6,3362.2
+195,519,California,CA,2020,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,20652,33.8,3346.9
+196,520,California,CA,2020,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,7019,34.9,3317.8
+197,521,California,CA,2020,M,Unknown or Not Stated,-9,14659,31.1,3289.1
+198,522,California,CA,2021,F,8th grade or less,1,6186,31.0,3220.2
+199,523,California,CA,2021,F,9th through 12th grade with no diploma,2,13548,27.6,3203.9
+200,524,California,CA,2021,F,High school graduate or GED completed,3,48982,27.7,3223.8
+201,525,California,CA,2021,F,"Some college credit, but not a degree",4,37791,29.3,3234.7
+202,526,California,CA,2021,F,"Associate degree (AA, AS)",5,14064,30.8,3248.8
+203,527,California,CA,2021,F,"Bachelor's degree (BA, AB, BS)",6,42965,32.6,3243.9
+204,528,California,CA,2021,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,20431,33.9,3220.8
+205,529,California,CA,2021,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,6977,35.1,3208.2
+206,530,California,CA,2021,F,Unknown or Not Stated,-9,15072,31.0,3169.8
+207,531,California,CA,2021,M,8th grade or less,1,6324,31.0,3297.1
+208,532,California,CA,2021,M,9th through 12th grade with no diploma,2,13943,27.7,3282.8
+209,533,California,CA,2021,M,High school graduate or GED completed,3,50322,27.8,3319.4
+210,534,California,CA,2021,M,"Some college credit, but not a degree",4,39122,29.3,3338.7
+211,535,California,CA,2021,M,"Associate degree (AA, AS)",5,14802,30.9,3348.2
+212,536,California,CA,2021,M,"Bachelor's degree (BA, AB, BS)",6,45112,32.7,3353.9
+213,537,California,CA,2021,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,21231,33.8,3341.7
+214,538,California,CA,2021,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,7608,35.0,3316.6
+215,539,California,CA,2021,M,Unknown or Not Stated,-9,16128,31.1,3275.0
+216,864,District of Columbia,DC,2016,F,8th grade or less,1,145,29.6,3156.8
+217,865,District of Columbia,DC,2016,F,9th through 12th grade with no diploma,2,465,25.1,3006.0
+218,866,District of Columbia,DC,2016,F,High school graduate or GED completed,3,1069,26.8,3025.6
+219,867,District of Columbia,DC,2016,F,"Some college credit, but not a degree",4,664,27.6,3086.4
+220,868,District of Columbia,DC,2016,F,"Associate degree (AA, AS)",5,125,30.4,3160.7
+221,869,District of Columbia,DC,2016,F,"Bachelor's degree (BA, AB, BS)",6,825,32.5,3246.5
+222,870,District of Columbia,DC,2016,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,895,34.4,3266.4
+223,871,District of Columbia,DC,2016,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,512,35.0,3293.7
+224,872,District of Columbia,DC,2016,F,Unknown or Not Stated,-9,37,29.4,2946.7
+225,873,District of Columbia,DC,2016,M,8th grade or less,1,163,29.3,3259.5
+226,874,District of Columbia,DC,2016,M,9th through 12th grade with no diploma,2,520,25.3,3122.3
+227,875,District of Columbia,DC,2016,M,High school graduate or GED completed,3,1146,26.6,3156.0
+228,876,District of Columbia,DC,2016,M,"Some college credit, but not a degree",4,745,27.9,3184.0
+229,877,District of Columbia,DC,2016,M,"Associate degree (AA, AS)",5,149,31.0,3291.0
+230,878,District of Columbia,DC,2016,M,"Bachelor's degree (BA, AB, BS)",6,847,32.3,3338.4
+231,879,District of Columbia,DC,2016,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,967,34.4,3361.2
+232,880,District of Columbia,DC,2016,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,553,34.9,3402.1
+233,881,District of Columbia,DC,2016,M,Unknown or Not Stated,-9,31,31.0,3028.6
+234,882,District of Columbia,DC,2017,F,8th grade or less,1,138,30.9,3222.1
+235,883,District of Columbia,DC,2017,F,9th through 12th grade with no diploma,2,499,24.8,2982.5
+236,884,District of Columbia,DC,2017,F,High school graduate or GED completed,3,1024,26.7,3027.8
+237,885,District of Columbia,DC,2017,F,"Some college credit, but not a degree",4,679,28.1,3025.2
+238,886,District of Columbia,DC,2017,F,"Associate degree (AA, AS)",5,128,31.0,3077.4
+239,887,District of Columbia,DC,2017,F,"Bachelor's degree (BA, AB, BS)",6,760,32.6,3271.1
+240,888,District of Columbia,DC,2017,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,971,34.5,3239.7
+241,889,District of Columbia,DC,2017,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,483,34.9,3243.7
+242,890,District of Columbia,DC,2017,F,Unknown or Not Stated,-9,24,29.1,2841.2
+243,891,District of Columbia,DC,2017,M,8th grade or less,1,145,29.3,3317.2
+244,892,District of Columbia,DC,2017,M,9th through 12th grade with no diploma,2,453,25.1,3080.9
+245,893,District of Columbia,DC,2017,M,High school graduate or GED completed,3,1041,26.8,3170.7
+246,894,District of Columbia,DC,2017,M,"Some college credit, but not a degree",4,726,28.2,3153.1
+247,895,District of Columbia,DC,2017,M,"Associate degree (AA, AS)",5,135,30.6,3201.8
+248,896,District of Columbia,DC,2017,M,"Bachelor's degree (BA, AB, BS)",6,830,32.7,3391.1
+249,897,District of Columbia,DC,2017,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,959,34.4,3404.2
+250,898,District of Columbia,DC,2017,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,531,35.1,3368.3
+251,899,District of Columbia,DC,2017,M,Unknown or Not Stated,-9,34,30.1,2912.9
+252,900,District of Columbia,DC,2018,F,8th grade or less,1,138,29.7,3110.2
+253,901,District of Columbia,DC,2018,F,9th through 12th grade with no diploma,2,398,25.3,3047.9
+254,902,District of Columbia,DC,2018,F,High school graduate or GED completed,3,975,27.1,3008.8
+255,903,District of Columbia,DC,2018,F,"Some college credit, but not a degree",4,566,28.4,3072.0
+256,904,District of Columbia,DC,2018,F,"Associate degree (AA, AS)",5,127,31.0,3079.1
+257,905,District of Columbia,DC,2018,F,"Bachelor's degree (BA, AB, BS)",6,769,32.9,3255.6
+258,906,District of Columbia,DC,2018,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,924,34.6,3274.5
+259,907,District of Columbia,DC,2018,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,528,35.5,3238.3
+260,908,District of Columbia,DC,2018,F,Unknown or Not Stated,-9,50,29.6,2795.0
+261,909,District of Columbia,DC,2018,M,8th grade or less,1,137,29.6,3233.2
+262,910,District of Columbia,DC,2018,M,9th through 12th grade with no diploma,2,430,25.2,3081.1
+263,911,District of Columbia,DC,2018,M,High school graduate or GED completed,3,1060,27.1,3146.2
+264,912,District of Columbia,DC,2018,M,"Some college credit, but not a degree",4,605,28.7,3147.2
+265,913,District of Columbia,DC,2018,M,"Associate degree (AA, AS)",5,128,30.8,3232.5
+266,914,District of Columbia,DC,2018,M,"Bachelor's degree (BA, AB, BS)",6,781,33.0,3357.8
+267,915,District of Columbia,DC,2018,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,1008,34.8,3401.4
+268,916,District of Columbia,DC,2018,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,542,35.3,3394.1
+269,917,District of Columbia,DC,2018,M,Unknown or Not Stated,-9,46,27.5,2886.7
+270,918,District of Columbia,DC,2019,F,8th grade or less,1,124,30.1,3258.1
+271,919,District of Columbia,DC,2019,F,9th through 12th grade with no diploma,2,370,25.6,3005.1
+272,920,District of Columbia,DC,2019,F,High school graduate or GED completed,3,1049,27.4,3012.9
+273,921,District of Columbia,DC,2019,F,"Some college credit, but not a degree",4,549,29.0,3032.2
+274,922,District of Columbia,DC,2019,F,"Associate degree (AA, AS)",5,128,31.3,3057.0
+275,923,District of Columbia,DC,2019,F,"Bachelor's degree (BA, AB, BS)",6,789,33.1,3231.2
+276,924,District of Columbia,DC,2019,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,919,34.6,3250.0
+277,925,District of Columbia,DC,2019,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,500,35.3,3300.1
+278,926,District of Columbia,DC,2019,F,Unknown or Not Stated,-9,38,28.6,2783.0
+279,927,District of Columbia,DC,2019,M,8th grade or less,1,133,30.0,3344.7
+280,928,District of Columbia,DC,2019,M,9th through 12th grade with no diploma,2,378,25.6,3112.1
+281,929,District of Columbia,DC,2019,M,High school graduate or GED completed,3,1023,27.2,3130.7
+282,930,District of Columbia,DC,2019,M,"Some college credit, but not a degree",4,590,28.8,3160.3
+283,931,District of Columbia,DC,2019,M,"Associate degree (AA, AS)",5,131,31.2,3214.9
+284,932,District of Columbia,DC,2019,M,"Bachelor's degree (BA, AB, BS)",6,807,33.1,3345.6
+285,933,District of Columbia,DC,2019,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,953,34.9,3382.2
+286,934,District of Columbia,DC,2019,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,540,35.5,3394.0
+287,935,District of Columbia,DC,2019,M,Unknown or Not Stated,-9,58,30.0,3036.6
+288,936,District of Columbia,DC,2020,F,8th grade or less,1,132,31.4,3156.1
+289,937,District of Columbia,DC,2020,F,9th through 12th grade with no diploma,2,399,25.3,2989.1
+290,938,District of Columbia,DC,2020,F,High school graduate or GED completed,3,894,27.6,3016.4
+291,939,District of Columbia,DC,2020,F,"Some college credit, but not a degree",4,557,28.8,3077.2
+292,940,District of Columbia,DC,2020,F,"Associate degree (AA, AS)",5,122,31.1,3026.5
+293,941,District of Columbia,DC,2020,F,"Bachelor's degree (BA, AB, BS)",6,773,33.1,3237.7
+294,942,District of Columbia,DC,2020,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,914,35.1,3241.1
+295,943,District of Columbia,DC,2020,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,454,35.5,3228.0
+296,944,District of Columbia,DC,2020,F,Unknown or Not Stated,-9,47,29.5,3036.3
+297,945,District of Columbia,DC,2020,M,8th grade or less,1,141,31.0,3273.4
+298,946,District of Columbia,DC,2020,M,9th through 12th grade with no diploma,2,407,26.0,3106.0
+299,947,District of Columbia,DC,2020,M,High school graduate or GED completed,3,903,27.2,3134.2
+300,948,District of Columbia,DC,2020,M,"Some college credit, but not a degree",4,571,29.0,3204.7
+301,949,District of Columbia,DC,2020,M,"Associate degree (AA, AS)",5,125,31.2,3304.5
+302,950,District of Columbia,DC,2020,M,"Bachelor's degree (BA, AB, BS)",6,835,33.0,3352.3
+303,951,District of Columbia,DC,2020,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,1023,35.0,3359.4
+304,952,District of Columbia,DC,2020,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,540,35.4,3392.0
+305,953,District of Columbia,DC,2020,M,Unknown or Not Stated,-9,37,31.2,3038.8
+306,954,District of Columbia,DC,2021,F,8th grade or less,1,137,29.3,3078.0
+307,955,District of Columbia,DC,2021,F,9th through 12th grade with no diploma,2,322,26.4,2967.8
+308,956,District of Columbia,DC,2021,F,High school graduate or GED completed,3,884,27.4,3009.5
+309,957,District of Columbia,DC,2021,F,"Some college credit, but not a degree",4,505,28.9,3083.0
+310,958,District of Columbia,DC,2021,F,"Associate degree (AA, AS)",5,122,30.8,2946.1
+311,959,District of Columbia,DC,2021,F,"Bachelor's degree (BA, AB, BS)",6,728,33.3,3263.5
+312,960,District of Columbia,DC,2021,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,966,35.2,3227.3
+313,961,District of Columbia,DC,2021,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,517,35.5,3204.0
+314,962,District of Columbia,DC,2021,F,Unknown or Not Stated,-9,84,28.4,3144.0
+315,963,District of Columbia,DC,2021,M,8th grade or less,1,168,30.8,3300.5
+316,964,District of Columbia,DC,2021,M,9th through 12th grade with no diploma,2,366,26.0,3110.4
+317,965,District of Columbia,DC,2021,M,High school graduate or GED completed,3,820,27.4,3127.6
+318,966,District of Columbia,DC,2021,M,"Some college credit, but not a degree",4,548,29.2,3187.4
+319,967,District of Columbia,DC,2021,M,"Associate degree (AA, AS)",5,104,31.7,3197.7
+320,968,District of Columbia,DC,2021,M,"Bachelor's degree (BA, AB, BS)",6,771,33.2,3389.9
+321,969,District of Columbia,DC,2021,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,982,35.1,3395.9
+322,970,District of Columbia,DC,2021,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,536,35.5,3338.6
+323,971,District of Columbia,DC,2021,M,Unknown or Not Stated,-9,100,28.4,3220.5
+324,972,Florida,FL,2016,F,8th grade or less,1,3280,28.8,3191.6
+325,973,Florida,FL,2016,F,9th through 12th grade with no diploma,2,10133,25.0,3077.4
+326,974,Florida,FL,2016,F,High school graduate or GED completed,3,34044,27.0,3139.5
+327,975,Florida,FL,2016,F,"Some college credit, but not a degree",4,20858,28.3,3186.9
+328,976,Florida,FL,2016,F,"Associate degree (AA, AS)",5,11024,29.9,3214.9
+329,977,Florida,FL,2016,F,"Bachelor's degree (BA, AB, BS)",6,19518,31.5,3244.9
+330,978,Florida,FL,2016,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,7625,32.9,3236.4
+331,979,Florida,FL,2016,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,2235,33.6,3214.1
+332,980,Florida,FL,2016,F,Unknown or Not Stated,-9,1136,29.6,3072.7
+333,981,Florida,FL,2016,M,8th grade or less,1,3415,28.6,3280.5
+334,982,Florida,FL,2016,M,9th through 12th grade with no diploma,2,10729,25.0,3189.9
+335,983,Florida,FL,2016,M,High school graduate or GED completed,3,35483,27.0,3257.3
+336,984,Florida,FL,2016,M,"Some college credit, but not a degree",4,21713,28.3,3312.3
+337,985,Florida,FL,2016,M,"Associate degree (AA, AS)",5,11575,29.9,3334.3
+338,986,Florida,FL,2016,M,"Bachelor's degree (BA, AB, BS)",6,20437,31.5,3376.2
+339,987,Florida,FL,2016,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,8272,32.8,3360.1
+340,988,Florida,FL,2016,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,2302,33.6,3351.0
+341,989,Florida,FL,2016,M,Unknown or Not Stated,-9,1243,29.6,3213.8
+342,990,Florida,FL,2017,F,8th grade or less,1,3238,28.7,3172.9
+343,991,Florida,FL,2017,F,9th through 12th grade with no diploma,2,9890,25.2,3081.5
+344,992,Florida,FL,2017,F,High school graduate or GED completed,3,34083,27.1,3128.8
+345,993,Florida,FL,2017,F,"Some college credit, but not a degree",4,20499,28.5,3172.8
+346,994,Florida,FL,2017,F,"Associate degree (AA, AS)",5,11040,30.0,3206.2
+347,995,Florida,FL,2017,F,"Bachelor's degree (BA, AB, BS)",6,19508,31.6,3247.5
+348,996,Florida,FL,2017,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,7709,33.0,3244.8
+349,997,Florida,FL,2017,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,2236,33.8,3229.9
+350,998,Florida,FL,2017,F,Unknown or Not Stated,-9,1190,29.9,3083.6
+351,999,Florida,FL,2017,M,8th grade or less,1,3385,28.6,3278.8
+352,1000,Florida,FL,2017,M,9th through 12th grade with no diploma,2,10262,25.2,3181.9
+353,1001,Florida,FL,2017,M,High school graduate or GED completed,3,35495,27.1,3249.1
+354,1002,Florida,FL,2017,M,"Some college credit, but not a degree",4,21261,28.4,3295.9
+355,1003,Florida,FL,2017,M,"Associate degree (AA, AS)",5,11531,30.0,3325.5
+356,1004,Florida,FL,2017,M,"Bachelor's degree (BA, AB, BS)",6,20494,31.6,3368.9
+357,1005,Florida,FL,2017,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,8160,32.9,3366.2
+358,1006,Florida,FL,2017,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,2420,33.7,3324.8
+359,1007,Florida,FL,2017,M,Unknown or Not Stated,-9,1229,30.0,3143.6
+360,1008,Florida,FL,2018,F,8th grade or less,1,3154,28.9,3195.8
+361,1009,Florida,FL,2018,F,9th through 12th grade with no diploma,2,9177,25.4,3073.0
+362,1010,Florida,FL,2018,F,High school graduate or GED completed,3,33099,27.3,3138.3
+363,1011,Florida,FL,2018,F,"Some college credit, but not a degree",4,19849,28.6,3185.1
+364,1012,Florida,FL,2018,F,"Associate degree (AA, AS)",5,11098,30.2,3213.0
+365,1013,Florida,FL,2018,F,"Bachelor's degree (BA, AB, BS)",6,20022,31.7,3238.3
+366,1014,Florida,FL,2018,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,8009,33.0,3247.8
+367,1015,Florida,FL,2018,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,2392,33.8,3228.8
+368,1016,Florida,FL,2018,F,Unknown or Not Stated,-9,1288,29.2,3069.6
+369,1017,Florida,FL,2018,M,8th grade or less,1,3250,29.0,3298.9
+370,1018,Florida,FL,2018,M,9th through 12th grade with no diploma,2,9745,25.5,3202.7
+371,1019,Florida,FL,2018,M,High school graduate or GED completed,3,34528,27.3,3255.1
+372,1020,Florida,FL,2018,M,"Some college credit, but not a degree",4,20761,28.6,3292.0
+373,1021,Florida,FL,2018,M,"Associate degree (AA, AS)",5,11719,30.1,3326.0
+374,1022,Florida,FL,2018,M,"Bachelor's degree (BA, AB, BS)",6,21394,31.7,3366.9
+375,1023,Florida,FL,2018,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,8309,33.0,3367.0
+376,1024,Florida,FL,2018,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,2495,33.6,3352.4
+377,1025,Florida,FL,2018,M,Unknown or Not Stated,-9,1253,29.1,3234.3
+378,1026,Florida,FL,2019,F,8th grade or less,1,3082,28.6,3163.3
+379,1027,Florida,FL,2019,F,9th through 12th grade with no diploma,2,8717,25.5,3070.8
+380,1028,Florida,FL,2019,F,High school graduate or GED completed,3,33182,27.4,3128.9
+381,1029,Florida,FL,2019,F,"Some college credit, but not a degree",4,19131,28.9,3172.4
+382,1030,Florida,FL,2019,F,"Associate degree (AA, AS)",5,10955,30.3,3213.1
+383,1031,Florida,FL,2019,F,"Bachelor's degree (BA, AB, BS)",6,20534,31.8,3236.5
+384,1032,Florida,FL,2019,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,8255,33.2,3244.6
+385,1033,Florida,FL,2019,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,2569,34.0,3208.5
+386,1034,Florida,FL,2019,F,Unknown or Not Stated,-9,1028,29.4,3095.8
+387,1035,Florida,FL,2019,M,8th grade or less,1,3170,28.6,3261.5
+388,1036,Florida,FL,2019,M,9th through 12th grade with no diploma,2,8943,25.4,3184.9
+389,1037,Florida,FL,2019,M,High school graduate or GED completed,3,35154,27.3,3247.3
+390,1038,Florida,FL,2019,M,"Some college credit, but not a degree",4,19924,28.8,3292.9
+391,1039,Florida,FL,2019,M,"Associate degree (AA, AS)",5,11631,30.2,3318.2
+392,1040,Florida,FL,2019,M,"Bachelor's degree (BA, AB, BS)",6,21706,31.8,3368.7
+393,1041,Florida,FL,2019,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,8355,33.2,3367.8
+394,1042,Florida,FL,2019,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,2657,33.9,3328.3
+395,1043,Florida,FL,2019,M,Unknown or Not Stated,-9,1009,29.5,3157.2
+396,1044,Florida,FL,2020,F,8th grade or less,1,2897,28.8,3165.7
+397,1045,Florida,FL,2020,F,9th through 12th grade with no diploma,2,7952,25.5,3081.0
+398,1046,Florida,FL,2020,F,High school graduate or GED completed,3,31783,27.4,3134.0
+399,1047,Florida,FL,2020,F,"Some college credit, but not a degree",4,17663,29.0,3173.1
+400,1048,Florida,FL,2020,F,"Associate degree (AA, AS)",5,10686,30.3,3204.7
+401,1049,Florida,FL,2020,F,"Bachelor's degree (BA, AB, BS)",6,20085,31.9,3240.9
+402,1050,Florida,FL,2020,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,8029,33.3,3232.9
+403,1051,Florida,FL,2020,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,2424,33.9,3212.6
+404,1052,Florida,FL,2020,F,Unknown or Not Stated,-9,773,29.6,3074.7
+405,1053,Florida,FL,2020,M,8th grade or less,1,3020,28.5,3272.3
+406,1054,Florida,FL,2020,M,9th through 12th grade with no diploma,2,8275,25.6,3184.5
+407,1055,Florida,FL,2020,M,High school graduate or GED completed,3,33402,27.4,3247.8
+408,1056,Florida,FL,2020,M,"Some college credit, but not a degree",4,18310,28.9,3291.1
+409,1057,Florida,FL,2020,M,"Associate degree (AA, AS)",5,11196,30.3,3318.6
+410,1058,Florida,FL,2020,M,"Bachelor's degree (BA, AB, BS)",6,21154,31.8,3364.9
+411,1059,Florida,FL,2020,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,8529,33.2,3354.7
+412,1060,Florida,FL,2020,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,2632,34.0,3313.6
+413,1061,Florida,FL,2020,M,Unknown or Not Stated,-9,861,29.4,3175.2
+414,1062,Florida,FL,2021,F,8th grade or less,1,2875,28.7,3162.2
+415,1063,Florida,FL,2021,F,9th through 12th grade with no diploma,2,7517,25.8,3082.5
+416,1064,Florida,FL,2021,F,High school graduate or GED completed,3,32249,27.5,3123.8
+417,1065,Florida,FL,2021,F,"Some college credit, but not a degree",4,17985,29.2,3168.1
+418,1066,Florida,FL,2021,F,"Associate degree (AA, AS)",5,11321,30.4,3182.7
+419,1067,Florida,FL,2021,F,"Bachelor's degree (BA, AB, BS)",6,21192,31.9,3228.2
+420,1068,Florida,FL,2021,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,8834,33.4,3228.6
+421,1069,Florida,FL,2021,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,2681,34.1,3203.6
+422,1070,Florida,FL,2021,F,Unknown or Not Stated,-9,1113,29.9,2990.8
+423,1071,Florida,FL,2021,M,8th grade or less,1,2992,28.5,3261.6
+424,1072,Florida,FL,2021,M,9th through 12th grade with no diploma,2,7823,25.9,3194.3
+425,1073,Florida,FL,2021,M,High school graduate or GED completed,3,33852,27.5,3239.9
+426,1074,Florida,FL,2021,M,"Some college credit, but not a degree",4,18578,29.3,3283.0
+427,1075,Florida,FL,2021,M,"Associate degree (AA, AS)",5,11647,30.4,3307.7
+428,1076,Florida,FL,2021,M,"Bachelor's degree (BA, AB, BS)",6,22530,31.9,3349.4
+429,1077,Florida,FL,2021,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,9001,33.2,3340.4
+430,1078,Florida,FL,2021,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,2874,34.1,3318.3
+431,1079,Florida,FL,2021,M,Unknown or Not Stated,-9,1196,29.8,3069.3
+432,1188,Hawaii,HI,2016,F,8th grade or less,1,81,28.0,3171.9
+433,1189,Hawaii,HI,2016,F,9th through 12th grade with no diploma,2,1394,26.7,3113.9
+434,1190,Hawaii,HI,2016,F,High school graduate or GED completed,3,1657,26.4,3218.8
+435,1191,Hawaii,HI,2016,F,"Some college credit, but not a degree",4,1712,28.3,3206.3
+436,1192,Hawaii,HI,2016,F,"Associate degree (AA, AS)",5,1027,29.9,3145.2
+437,1193,Hawaii,HI,2016,F,"Bachelor's degree (BA, AB, BS)",6,1862,31.9,3183.3
+438,1194,Hawaii,HI,2016,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,673,34.0,3152.4
+439,1195,Hawaii,HI,2016,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,112,34.8,3259.3
+440,1196,Hawaii,HI,2016,F,Unknown or Not Stated,-9,46,29.3,3033.5
+441,1197,Hawaii,HI,2016,M,8th grade or less,1,76,27.4,3174.4
+442,1198,Hawaii,HI,2016,M,9th through 12th grade with no diploma,2,1565,26.8,3201.7
+443,1199,Hawaii,HI,2016,M,High school graduate or GED completed,3,1800,26.5,3296.8
+444,1200,Hawaii,HI,2016,M,"Some college credit, but not a degree",4,1764,28.4,3316.1
+445,1201,Hawaii,HI,2016,M,"Associate degree (AA, AS)",5,1271,30.3,3238.3
+446,1202,Hawaii,HI,2016,M,"Bachelor's degree (BA, AB, BS)",6,2033,31.7,3295.6
+447,1203,Hawaii,HI,2016,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,825,34.1,3282.3
+448,1204,Hawaii,HI,2016,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,104,34.2,3351.1
+449,1205,Hawaii,HI,2016,M,Unknown or Not Stated,-9,57,29.8,3124.0
+450,1206,Hawaii,HI,2017,F,8th grade or less,1,62,27.3,3058.8
+451,1207,Hawaii,HI,2017,F,9th through 12th grade with no diploma,2,1438,26.4,3119.2
+452,1208,Hawaii,HI,2017,F,High school graduate or GED completed,3,1465,26.7,3198.5
+453,1209,Hawaii,HI,2017,F,"Some college credit, but not a degree",4,1630,28.3,3203.9
+454,1210,Hawaii,HI,2017,F,"Associate degree (AA, AS)",5,1051,30.4,3148.0
+455,1211,Hawaii,HI,2017,F,"Bachelor's degree (BA, AB, BS)",6,1823,32.3,3203.4
+456,1212,Hawaii,HI,2017,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,730,33.8,3202.9
+457,1213,Hawaii,HI,2017,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,126,34.5,3258.9
+458,1214,Hawaii,HI,2017,F,Unknown or Not Stated,-9,54,28.8,2937.4
+459,1215,Hawaii,HI,2017,M,8th grade or less,1,87,27.2,3248.5
+460,1216,Hawaii,HI,2017,M,9th through 12th grade with no diploma,2,1606,26.5,3175.5
+461,1217,Hawaii,HI,2017,M,High school graduate or GED completed,3,1659,26.8,3316.5
+462,1218,Hawaii,HI,2017,M,"Some college credit, but not a degree",4,1762,28.5,3306.0
+463,1219,Hawaii,HI,2017,M,"Associate degree (AA, AS)",5,1123,30.1,3258.2
+464,1220,Hawaii,HI,2017,M,"Bachelor's degree (BA, AB, BS)",6,1977,32.0,3296.9
+465,1221,Hawaii,HI,2017,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,741,33.8,3288.6
+466,1222,Hawaii,HI,2017,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,123,34.7,3345.1
+467,1223,Hawaii,HI,2017,M,Unknown or Not Stated,-9,60,29.1,3080.2
+468,1224,Hawaii,HI,2018,F,8th grade or less,1,59,26.9,3249.2
+469,1225,Hawaii,HI,2018,F,9th through 12th grade with no diploma,2,1390,26.6,3113.2
+470,1226,Hawaii,HI,2018,F,High school graduate or GED completed,3,1411,26.8,3206.9
+471,1227,Hawaii,HI,2018,F,"Some college credit, but not a degree",4,1679,28.8,3175.0
+472,1228,Hawaii,HI,2018,F,"Associate degree (AA, AS)",5,935,30.8,3161.8
+473,1229,Hawaii,HI,2018,F,"Bachelor's degree (BA, AB, BS)",6,1888,32.0,3211.6
+474,1230,Hawaii,HI,2018,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,702,34.2,3225.9
+475,1231,Hawaii,HI,2018,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,121,34.2,3214.4
+476,1232,Hawaii,HI,2018,F,Unknown or Not Stated,-9,61,29.5,3081.8
+477,1233,Hawaii,HI,2018,M,8th grade or less,1,78,29.0,3206.5
+478,1234,Hawaii,HI,2018,M,9th through 12th grade with no diploma,2,1468,26.8,3191.7
+479,1235,Hawaii,HI,2018,M,High school graduate or GED completed,3,1496,26.8,3315.1
+480,1236,Hawaii,HI,2018,M,"Some college credit, but not a degree",4,1754,28.7,3283.4
+481,1237,Hawaii,HI,2018,M,"Associate degree (AA, AS)",5,1041,30.4,3247.8
+482,1238,Hawaii,HI,2018,M,"Bachelor's degree (BA, AB, BS)",6,2001,32.2,3283.5
+483,1239,Hawaii,HI,2018,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,705,33.9,3277.8
+484,1240,Hawaii,HI,2018,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,127,34.8,3280.9
+485,1241,Hawaii,HI,2018,M,Unknown or Not Stated,-9,56,30.4,2916.6
+486,1242,Hawaii,HI,2019,F,8th grade or less,1,71,27.2,3121.2
+487,1243,Hawaii,HI,2019,F,9th through 12th grade with no diploma,2,1388,26.7,3118.2
+488,1244,Hawaii,HI,2019,F,High school graduate or GED completed,3,1420,27.0,3175.5
+489,1245,Hawaii,HI,2019,F,"Some college credit, but not a degree",4,1636,28.9,3172.4
+490,1246,Hawaii,HI,2019,F,"Associate degree (AA, AS)",5,789,31.1,3205.9
+491,1247,Hawaii,HI,2019,F,"Bachelor's degree (BA, AB, BS)",6,1804,32.3,3177.9
+492,1248,Hawaii,HI,2019,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,722,34.0,3171.7
+493,1249,Hawaii,HI,2019,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,111,34.8,3218.0
+494,1250,Hawaii,HI,2019,F,Unknown or Not Stated,-9,78,28.0,3042.4
+495,1251,Hawaii,HI,2019,M,8th grade or less,1,66,28.7,3030.4
+496,1252,Hawaii,HI,2019,M,9th through 12th grade with no diploma,2,1475,26.9,3185.2
+497,1253,Hawaii,HI,2019,M,High school graduate or GED completed,3,1521,26.9,3314.6
+498,1254,Hawaii,HI,2019,M,"Some college credit, but not a degree",4,1882,28.8,3281.0
+499,1255,Hawaii,HI,2019,M,"Associate degree (AA, AS)",5,892,30.7,3244.6
+500,1256,Hawaii,HI,2019,M,"Bachelor's degree (BA, AB, BS)",6,1999,32.2,3276.7
+501,1257,Hawaii,HI,2019,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,733,34.2,3302.7
+502,1258,Hawaii,HI,2019,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,135,35.0,3447.8
+503,1259,Hawaii,HI,2019,M,Unknown or Not Stated,-9,75,28.5,3234.2
+504,1260,Hawaii,HI,2020,F,8th grade or less,1,54,30.4,3166.3
+505,1261,Hawaii,HI,2020,F,9th through 12th grade with no diploma,2,1276,27.2,3111.1
+506,1262,Hawaii,HI,2020,F,High school graduate or GED completed,3,1364,26.8,3220.8
+507,1263,Hawaii,HI,2020,F,"Some college credit, but not a degree",4,1485,28.8,3184.0
+508,1264,Hawaii,HI,2020,F,"Associate degree (AA, AS)",5,770,30.8,3176.0
+509,1265,Hawaii,HI,2020,F,"Bachelor's degree (BA, AB, BS)",6,1814,32.1,3188.6
+510,1266,Hawaii,HI,2020,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,657,34.2,3202.2
+511,1267,Hawaii,HI,2020,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,120,35.0,3244.1
+512,1268,Hawaii,HI,2020,F,Unknown or Not Stated,-9,129,30.3,3194.2
+513,1269,Hawaii,HI,2020,M,8th grade or less,1,62,27.1,3130.4
+514,1270,Hawaii,HI,2020,M,9th through 12th grade with no diploma,2,1259,27.3,3229.9
+515,1271,Hawaii,HI,2020,M,High school graduate or GED completed,3,1433,26.9,3295.8
+516,1272,Hawaii,HI,2020,M,"Some college credit, but not a degree",4,1640,28.8,3288.4
+517,1273,Hawaii,HI,2020,M,"Associate degree (AA, AS)",5,852,30.6,3293.0
+518,1274,Hawaii,HI,2020,M,"Bachelor's degree (BA, AB, BS)",6,1884,32.1,3276.8
+519,1275,Hawaii,HI,2020,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,731,34.1,3298.7
+520,1276,Hawaii,HI,2020,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,125,34.5,3309.4
+521,1277,Hawaii,HI,2020,M,Unknown or Not Stated,-9,130,29.3,3156.2
+522,1278,Hawaii,HI,2021,F,8th grade or less,1,40,29.4,3248.7
+523,1279,Hawaii,HI,2021,F,9th through 12th grade with no diploma,2,1117,27.0,3124.4
+524,1280,Hawaii,HI,2021,F,High school graduate or GED completed,3,1290,27.0,3203.2
+525,1281,Hawaii,HI,2021,F,"Some college credit, but not a degree",4,1454,29.4,3196.5
+526,1282,Hawaii,HI,2021,F,"Associate degree (AA, AS)",5,780,31.0,3171.3
+527,1283,Hawaii,HI,2021,F,"Bachelor's degree (BA, AB, BS)",6,1825,32.2,3171.5
+528,1284,Hawaii,HI,2021,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,726,34.3,3178.6
+529,1285,Hawaii,HI,2021,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,139,34.6,3219.3
+530,1286,Hawaii,HI,2021,F,Unknown or Not Stated,-9,141,29.8,2970.0
+531,1287,Hawaii,HI,2021,M,8th grade or less,1,62,29.4,3221.0
+532,1288,Hawaii,HI,2021,M,9th through 12th grade with no diploma,2,1237,27.3,3185.0
+533,1289,Hawaii,HI,2021,M,High school graduate or GED completed,3,1429,27.1,3312.5
+534,1290,Hawaii,HI,2021,M,"Some college credit, but not a degree",4,1546,29.4,3284.1
+535,1291,Hawaii,HI,2021,M,"Associate degree (AA, AS)",5,800,31.1,3251.0
+536,1292,Hawaii,HI,2021,M,"Bachelor's degree (BA, AB, BS)",6,1919,32.2,3294.1
+537,1293,Hawaii,HI,2021,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,797,34.2,3293.6
+538,1294,Hawaii,HI,2021,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,157,34.5,3291.4
+539,1295,Hawaii,HI,2021,M,Unknown or Not Stated,-9,161,30.5,3204.1
+540,3444,New York,NY,2016,F,8th grade or less,1,5316,30.2,3201.2
+541,3445,New York,NY,2016,F,9th through 12th grade with no diploma,2,12413,26.4,3135.6
+542,3446,New York,NY,2016,F,High school graduate or GED completed,3,25339,27.8,3182.3
+543,3447,New York,NY,2016,F,"Some college credit, but not a degree",4,18429,28.7,3198.7
+544,3448,New York,NY,2016,F,"Associate degree (AA, AS)",5,9301,30.4,3221.1
+545,3449,New York,NY,2016,F,"Bachelor's degree (BA, AB, BS)",6,22703,32.0,3229.3
+546,3450,New York,NY,2016,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,16418,33.1,3253.5
+547,3451,New York,NY,2016,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,4004,34.2,3222.7
+548,3452,New York,NY,2016,F,Unknown or Not Stated,-9,543,29.3,3067.6
+549,3453,New York,NY,2016,M,8th grade or less,1,5490,30.1,3315.0
+550,3454,New York,NY,2016,M,9th through 12th grade with no diploma,2,12918,26.4,3250.0
+551,3455,New York,NY,2016,M,High school graduate or GED completed,3,26579,27.8,3308.4
+552,3456,New York,NY,2016,M,"Some college credit, but not a degree",4,19344,28.6,3313.9
+553,3457,New York,NY,2016,M,"Associate degree (AA, AS)",5,9457,30.3,3331.4
+554,3458,New York,NY,2016,M,"Bachelor's degree (BA, AB, BS)",6,24053,32.0,3356.4
+555,3459,New York,NY,2016,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,17198,33.1,3372.9
+556,3460,New York,NY,2016,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,4183,34.1,3337.8
+557,3461,New York,NY,2016,M,Unknown or Not Stated,-9,595,29.5,3243.2
+558,3462,New York,NY,2017,F,8th grade or less,1,5054,30.3,3210.3
+559,3463,New York,NY,2017,F,9th through 12th grade with no diploma,2,11806,26.7,3124.8
+560,3464,New York,NY,2017,F,High school graduate or GED completed,3,25372,27.9,3179.3
+561,3465,New York,NY,2017,F,"Some college credit, but not a degree",4,17639,28.8,3189.4
+562,3466,New York,NY,2017,F,"Associate degree (AA, AS)",5,8855,30.4,3219.1
+563,3467,New York,NY,2017,F,"Bachelor's degree (BA, AB, BS)",6,22566,32.1,3231.6
+564,3468,New York,NY,2017,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,16167,33.3,3245.4
+565,3469,New York,NY,2017,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,3958,34.4,3219.5
+566,3470,New York,NY,2017,F,Unknown or Not Stated,-9,597,29.8,3018.1
+567,3471,New York,NY,2017,M,8th grade or less,1,5492,30.6,3298.9
+568,3472,New York,NY,2017,M,9th through 12th grade with no diploma,2,12348,26.8,3238.2
+569,3473,New York,NY,2017,M,High school graduate or GED completed,3,26414,27.9,3292.1
+570,3474,New York,NY,2017,M,"Some college credit, but not a degree",4,18628,28.8,3307.5
+571,3475,New York,NY,2017,M,"Associate degree (AA, AS)",5,9334,30.5,3336.6
+572,3476,New York,NY,2017,M,"Bachelor's degree (BA, AB, BS)",6,23576,32.2,3354.4
+573,3477,New York,NY,2017,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,17163,33.2,3371.5
+574,3478,New York,NY,2017,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,4155,34.4,3323.4
+575,3479,New York,NY,2017,M,Unknown or Not Stated,-9,613,29.7,3136.9
+576,3480,New York,NY,2018,F,8th grade or less,1,4712,30.6,3207.6
+577,3481,New York,NY,2018,F,9th through 12th grade with no diploma,2,10981,26.8,3133.2
+578,3482,New York,NY,2018,F,High school graduate or GED completed,3,25376,28.1,3174.5
+579,3483,New York,NY,2018,F,"Some college credit, but not a degree",4,17314,29.0,3193.5
+580,3484,New York,NY,2018,F,"Associate degree (AA, AS)",5,8736,30.6,3217.6
+581,3485,New York,NY,2018,F,"Bachelor's degree (BA, AB, BS)",6,22477,32.3,3228.0
+582,3486,New York,NY,2018,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,16396,33.4,3246.0
+583,3487,New York,NY,2018,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,4039,34.4,3210.7
+584,3488,New York,NY,2018,F,Unknown or Not Stated,-9,608,29.4,3051.3
+585,3489,New York,NY,2018,M,8th grade or less,1,5063,30.6,3306.6
+586,3490,New York,NY,2018,M,9th through 12th grade with no diploma,2,11414,26.8,3227.9
+587,3491,New York,NY,2018,M,High school graduate or GED completed,3,26375,28.0,3294.5
+588,3492,New York,NY,2018,M,"Some college credit, but not a degree",4,17768,29.0,3306.4
+589,3493,New York,NY,2018,M,"Associate degree (AA, AS)",5,9232,30.6,3335.2
+590,3494,New York,NY,2018,M,"Bachelor's degree (BA, AB, BS)",6,23631,32.2,3357.6
+591,3495,New York,NY,2018,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,16993,33.3,3374.7
+592,3496,New York,NY,2018,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,4389,34.4,3343.6
+593,3497,New York,NY,2018,M,Unknown or Not Stated,-9,734,30.0,3104.2
+594,3498,New York,NY,2019,F,8th grade or less,1,4408,30.6,3183.4
+595,3499,New York,NY,2019,F,9th through 12th grade with no diploma,2,10573,27.0,3122.7
+596,3500,New York,NY,2019,F,High school graduate or GED completed,3,24859,28.1,3165.3
+597,3501,New York,NY,2019,F,"Some college credit, but not a degree",4,16529,29.1,3180.2
+598,3502,New York,NY,2019,F,"Associate degree (AA, AS)",5,8621,30.7,3211.7
+599,3503,New York,NY,2019,F,"Bachelor's degree (BA, AB, BS)",6,22554,32.4,3220.9
+600,3504,New York,NY,2019,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,16161,33.4,3249.3
+601,3505,New York,NY,2019,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,3995,34.6,3229.3
+602,3506,New York,NY,2019,F,Unknown or Not Stated,-9,774,29.7,3007.1
+603,3507,New York,NY,2019,M,8th grade or less,1,4576,30.5,3304.1
+604,3508,New York,NY,2019,M,9th through 12th grade with no diploma,2,10989,26.9,3236.8
+605,3509,New York,NY,2019,M,High school graduate or GED completed,3,25842,28.0,3294.5
+606,3510,New York,NY,2019,M,"Some college credit, but not a degree",4,17233,29.1,3298.7
+607,3511,New York,NY,2019,M,"Associate degree (AA, AS)",5,8981,30.6,3332.2
+608,3512,New York,NY,2019,M,"Bachelor's degree (BA, AB, BS)",6,23609,32.3,3341.8
+609,3513,New York,NY,2019,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,16869,33.4,3367.3
+610,3514,New York,NY,2019,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,4183,34.6,3319.6
+611,3515,New York,NY,2019,M,Unknown or Not Stated,-9,783,29.7,3112.5
+612,3516,New York,NY,2020,F,8th grade or less,1,4008,30.6,3195.5
+613,3517,New York,NY,2020,F,9th through 12th grade with no diploma,2,9458,27.2,3110.9
+614,3518,New York,NY,2020,F,High school graduate or GED completed,3,23620,28.1,3171.6
+615,3519,New York,NY,2020,F,"Some college credit, but not a degree",4,15317,29.2,3180.3
+616,3520,New York,NY,2020,F,"Associate degree (AA, AS)",5,8279,30.8,3203.6
+617,3521,New York,NY,2020,F,"Bachelor's degree (BA, AB, BS)",6,21216,32.4,3226.2
+618,3522,New York,NY,2020,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,15548,33.5,3238.4
+619,3523,New York,NY,2020,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,3915,34.5,3201.5
+620,3524,New York,NY,2020,F,Unknown or Not Stated,-9,711,29.2,3025.7
+621,3525,New York,NY,2020,M,8th grade or less,1,4288,30.7,3300.8
+622,3526,New York,NY,2020,M,9th through 12th grade with no diploma,2,9969,27.1,3229.4
+623,3527,New York,NY,2020,M,High school graduate or GED completed,3,24988,28.2,3286.9
+624,3528,New York,NY,2020,M,"Some college credit, but not a degree",4,16175,29.2,3293.5
+625,3529,New York,NY,2020,M,"Associate degree (AA, AS)",5,8461,30.7,3331.4
+626,3530,New York,NY,2020,M,"Bachelor's degree (BA, AB, BS)",6,22457,32.3,3346.0
+627,3531,New York,NY,2020,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,16180,33.4,3360.0
+628,3532,New York,NY,2020,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,3985,34.4,3328.7
+629,3533,New York,NY,2020,M,Unknown or Not Stated,-9,763,29.8,3077.8
+630,3534,New York,NY,2021,F,8th grade or less,1,4007,30.8,3178.9
+631,3535,New York,NY,2021,F,9th through 12th grade with no diploma,2,8747,27.5,3104.8
+632,3536,New York,NY,2021,F,High school graduate or GED completed,3,23529,28.2,3158.4
+633,3537,New York,NY,2021,F,"Some college credit, but not a degree",4,15063,29.5,3176.3
+634,3538,New York,NY,2021,F,"Associate degree (AA, AS)",5,8395,30.9,3199.0
+635,3539,New York,NY,2021,F,"Bachelor's degree (BA, AB, BS)",6,22216,32.4,3213.5
+636,3540,New York,NY,2021,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,16441,33.6,3233.2
+637,3541,New York,NY,2021,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,4079,34.7,3203.9
+638,3542,New York,NY,2021,F,Unknown or Not Stated,-9,759,30.2,3062.0
+639,3543,New York,NY,2021,M,8th grade or less,1,4016,30.6,3294.4
+640,3544,New York,NY,2021,M,9th through 12th grade with no diploma,2,9182,27.2,3225.5
+641,3545,New York,NY,2021,M,High school graduate or GED completed,3,24891,28.2,3275.4
+642,3546,New York,NY,2021,M,"Some college credit, but not a degree",4,15693,29.4,3282.0
+643,3547,New York,NY,2021,M,"Associate degree (AA, AS)",5,8663,30.8,3316.8
+644,3548,New York,NY,2021,M,"Bachelor's degree (BA, AB, BS)",6,23356,32.4,3335.4
+645,3549,New York,NY,2021,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,16755,33.6,3357.1
+646,3550,New York,NY,2021,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,4186,34.6,3310.0
+647,3551,New York,NY,2021,M,Unknown or Not Stated,-9,764,30.3,3173.6
+648,3552,North Carolina,NC,2016,F,8th grade or less,1,2180,30.2,3232.6
+649,3553,North Carolina,NC,2016,F,9th through 12th grade with no diploma,2,6433,24.6,3092.6
+650,3554,North Carolina,NC,2016,F,High school graduate or GED completed,3,13391,25.6,3126.4
+651,3555,North Carolina,NC,2016,F,"Some college credit, but not a degree",4,13301,27.2,3172.6
+652,3556,North Carolina,NC,2016,F,"Associate degree (AA, AS)",5,5348,29.5,3222.4
+653,3557,North Carolina,NC,2016,F,"Bachelor's degree (BA, AB, BS)",6,11594,31.1,3285.2
+654,3558,North Carolina,NC,2016,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,4923,32.6,3256.7
+655,3559,North Carolina,NC,2016,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,1419,33.6,3245.4
+656,3560,North Carolina,NC,2016,F,Unknown or Not Stated,-9,159,29.1,3196.6
+657,3561,North Carolina,NC,2016,M,8th grade or less,1,2349,30.3,3341.2
+658,3562,North Carolina,NC,2016,M,9th through 12th grade with no diploma,2,6360,24.5,3187.5
+659,3563,North Carolina,NC,2016,M,High school graduate or GED completed,3,14052,25.6,3238.5
+660,3564,North Carolina,NC,2016,M,"Some college credit, but not a degree",4,13939,27.2,3296.0
+661,3565,North Carolina,NC,2016,M,"Associate degree (AA, AS)",5,5696,29.6,3350.3
+662,3566,North Carolina,NC,2016,M,"Bachelor's degree (BA, AB, BS)",6,12640,31.0,3398.5
+663,3567,North Carolina,NC,2016,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,5294,32.6,3400.8
+664,3568,North Carolina,NC,2016,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,1523,33.6,3387.4
+665,3569,North Carolina,NC,2016,M,Unknown or Not Stated,-9,178,29.6,3158.1
+666,3570,North Carolina,NC,2017,F,8th grade or less,1,2191,30.4,3215.9
+667,3571,North Carolina,NC,2017,F,9th through 12th grade with no diploma,2,6058,24.9,3069.6
+668,3572,North Carolina,NC,2017,F,High school graduate or GED completed,3,13811,25.6,3125.8
+669,3573,North Carolina,NC,2017,F,"Some college credit, but not a degree",4,13267,27.3,3160.6
+670,3574,North Carolina,NC,2017,F,"Associate degree (AA, AS)",5,5374,29.6,3232.0
+671,3575,North Carolina,NC,2017,F,"Bachelor's degree (BA, AB, BS)",6,11351,31.2,3283.4
+672,3576,North Carolina,NC,2017,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,4980,32.7,3257.4
+673,3577,North Carolina,NC,2017,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,1471,33.8,3256.2
+674,3578,North Carolina,NC,2017,F,Unknown or Not Stated,-9,131,29.5,3114.2
+675,3579,North Carolina,NC,2017,M,8th grade or less,1,2199,30.3,3298.7
+676,3580,North Carolina,NC,2017,M,9th through 12th grade with no diploma,2,6363,24.8,3173.8
+677,3581,North Carolina,NC,2017,M,High school graduate or GED completed,3,14441,25.7,3235.2
+678,3582,North Carolina,NC,2017,M,"Some college credit, but not a degree",4,13599,27.2,3283.7
+679,3583,North Carolina,NC,2017,M,"Associate degree (AA, AS)",5,5774,29.6,3339.3
+680,3584,North Carolina,NC,2017,M,"Bachelor's degree (BA, AB, BS)",6,12155,31.2,3399.7
+681,3585,North Carolina,NC,2017,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,5274,32.8,3384.3
+682,3586,North Carolina,NC,2017,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,1546,33.7,3372.7
+683,3587,North Carolina,NC,2017,M,Unknown or Not Stated,-9,140,29.2,3199.3
+684,3588,North Carolina,NC,2018,F,8th grade or less,1,1921,30.5,3197.0
+685,3589,North Carolina,NC,2018,F,9th through 12th grade with no diploma,2,5801,25.1,3072.6
+686,3590,North Carolina,NC,2018,F,High school graduate or GED completed,3,13976,25.8,3122.0
+687,3591,North Carolina,NC,2018,F,"Some college credit, but not a degree",4,12536,27.5,3167.8
+688,3592,North Carolina,NC,2018,F,"Associate degree (AA, AS)",5,5436,29.7,3231.4
+689,3593,North Carolina,NC,2018,F,"Bachelor's degree (BA, AB, BS)",6,11929,31.1,3279.6
+690,3594,North Carolina,NC,2018,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,5139,32.9,3263.9
+691,3595,North Carolina,NC,2018,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,1451,33.8,3249.5
+692,3596,North Carolina,NC,2018,F,Unknown or Not Stated,-9,198,29.5,3243.2
+693,3597,North Carolina,NC,2018,M,8th grade or less,1,2022,30.4,3297.7
+694,3598,North Carolina,NC,2018,M,9th through 12th grade with no diploma,2,5893,25.1,3172.5
+695,3599,North Carolina,NC,2018,M,High school graduate or GED completed,3,14345,25.8,3239.7
+696,3600,North Carolina,NC,2018,M,"Some college credit, but not a degree",4,13271,27.4,3291.1
+697,3601,North Carolina,NC,2018,M,"Associate degree (AA, AS)",5,5790,29.6,3331.9
+698,3602,North Carolina,NC,2018,M,"Bachelor's degree (BA, AB, BS)",6,12181,31.2,3417.4
+699,3603,North Carolina,NC,2018,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,5307,32.9,3382.0
+700,3604,North Carolina,NC,2018,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,1567,33.6,3347.1
+701,3605,North Carolina,NC,2018,M,Unknown or Not Stated,-9,191,29.2,3220.0
+702,3606,North Carolina,NC,2019,F,8th grade or less,1,1931,30.3,3197.2
+703,3607,North Carolina,NC,2019,F,9th through 12th grade with no diploma,2,5486,25.3,3076.7
+704,3608,North Carolina,NC,2019,F,High school graduate or GED completed,3,14555,26.0,3110.4
+705,3609,North Carolina,NC,2019,F,"Some college credit, but not a degree",4,12061,27.5,3154.0
+706,3610,North Carolina,NC,2019,F,"Associate degree (AA, AS)",5,5468,29.6,3225.5
+707,3611,North Carolina,NC,2019,F,"Bachelor's degree (BA, AB, BS)",6,11749,31.2,3266.5
+708,3612,North Carolina,NC,2019,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,5177,32.9,3250.2
+709,3613,North Carolina,NC,2019,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,1476,33.9,3249.8
+710,3614,North Carolina,NC,2019,F,Unknown or Not Stated,-9,217,29.2,3066.3
+711,3615,North Carolina,NC,2019,M,8th grade or less,1,2011,30.1,3286.7
+712,3616,North Carolina,NC,2019,M,9th through 12th grade with no diploma,2,5768,25.2,3173.1
+713,3617,North Carolina,NC,2019,M,High school graduate or GED completed,3,15022,26.0,3221.6
+714,3618,North Carolina,NC,2019,M,"Some college credit, but not a degree",4,12467,27.5,3281.9
+715,3619,North Carolina,NC,2019,M,"Associate degree (AA, AS)",5,5864,29.6,3325.0
+716,3620,North Carolina,NC,2019,M,"Bachelor's degree (BA, AB, BS)",6,12192,31.2,3382.9
+717,3621,North Carolina,NC,2019,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,5429,33.0,3381.7
+718,3622,North Carolina,NC,2019,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,1641,34.1,3391.5
+719,3623,North Carolina,NC,2019,M,Unknown or Not Stated,-9,211,28.2,3185.7
+720,3624,North Carolina,NC,2020,F,8th grade or less,1,1912,30.4,3199.1
+721,3625,North Carolina,NC,2020,F,9th through 12th grade with no diploma,2,5234,25.3,3069.9
+722,3626,North Carolina,NC,2020,F,High school graduate or GED completed,3,14344,26.0,3111.0
+723,3627,North Carolina,NC,2020,F,"Some college credit, but not a degree",4,11566,27.7,3165.0
+724,3628,North Carolina,NC,2020,F,"Associate degree (AA, AS)",5,5327,29.6,3201.0
+725,3629,North Carolina,NC,2020,F,"Bachelor's degree (BA, AB, BS)",6,11806,31.2,3258.5
+726,3630,North Carolina,NC,2020,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,5112,33.1,3258.5
+727,3631,North Carolina,NC,2020,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,1592,33.8,3232.3
+728,3632,North Carolina,NC,2020,F,Unknown or Not Stated,-9,165,28.6,2977.2
+729,3633,North Carolina,NC,2020,M,8th grade or less,1,1972,30.6,3263.8
+730,3634,North Carolina,NC,2020,M,9th through 12th grade with no diploma,2,5382,25.3,3161.6
+731,3635,North Carolina,NC,2020,M,High school graduate or GED completed,3,14946,26.1,3229.7
+732,3636,North Carolina,NC,2020,M,"Some college credit, but not a degree",4,11999,27.7,3263.0
+733,3637,North Carolina,NC,2020,M,"Associate degree (AA, AS)",5,5871,29.7,3322.2
+734,3638,North Carolina,NC,2020,M,"Bachelor's degree (BA, AB, BS)",6,12419,31.2,3391.0
+735,3639,North Carolina,NC,2020,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,5326,33.0,3380.4
+736,3640,North Carolina,NC,2020,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,1599,34.2,3355.9
+737,3641,North Carolina,NC,2020,M,Unknown or Not Stated,-9,158,30.2,3210.0
+738,3642,North Carolina,NC,2021,F,8th grade or less,1,1773,30.1,3202.1
+739,3643,North Carolina,NC,2021,F,9th through 12th grade with no diploma,2,4996,25.6,3064.3
+740,3644,North Carolina,NC,2021,F,High school graduate or GED completed,3,14555,26.2,3106.0
+741,3645,North Carolina,NC,2021,F,"Some college credit, but not a degree",4,11452,28.1,3155.0
+742,3646,North Carolina,NC,2021,F,"Associate degree (AA, AS)",5,5700,29.7,3196.0
+743,3647,North Carolina,NC,2021,F,"Bachelor's degree (BA, AB, BS)",6,12625,31.3,3267.3
+744,3648,North Carolina,NC,2021,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,5675,33.1,3253.9
+745,3649,North Carolina,NC,2021,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,1658,33.9,3235.1
+746,3650,North Carolina,NC,2021,F,Unknown or Not Stated,-9,171,30.3,3149.3
+747,3651,North Carolina,NC,2021,M,8th grade or less,1,1854,30.0,3257.3
+748,3652,North Carolina,NC,2021,M,9th through 12th grade with no diploma,2,5191,25.4,3157.3
+749,3653,North Carolina,NC,2021,M,High school graduate or GED completed,3,15477,26.2,3210.3
+750,3654,North Carolina,NC,2021,M,"Some college credit, but not a degree",4,11870,28.0,3275.4
+751,3655,North Carolina,NC,2021,M,"Associate degree (AA, AS)",5,6043,29.6,3314.1
+752,3656,North Carolina,NC,2021,M,"Bachelor's degree (BA, AB, BS)",6,13487,31.3,3389.9
+753,3657,North Carolina,NC,2021,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,6005,33.0,3368.0
+754,3658,North Carolina,NC,2021,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,1767,34.0,3359.2
+755,3659,North Carolina,NC,2021,M,Unknown or Not Stated,-9,167,30.0,3096.6
+756,4632,Texas,TX,2016,F,8th grade or less,1,7337,29.2,3198.7
+757,4633,Texas,TX,2016,F,9th through 12th grade with no diploma,2,28687,25.2,3144.1
+758,4634,Texas,TX,2016,F,High school graduate or GED completed,3,52110,25.8,3150.8
+759,4635,Texas,TX,2016,F,"Some college credit, but not a degree",4,42515,27.4,3185.4
+760,4636,Texas,TX,2016,F,"Associate degree (AA, AS)",5,12096,29.5,3199.7
+761,4637,Texas,TX,2016,F,"Bachelor's degree (BA, AB, BS)",6,35000,31.1,3235.9
+762,4638,Texas,TX,2016,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,12767,32.6,3223.6
+763,4639,Texas,TX,2016,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,3905,33.5,3198.5
+764,4640,Texas,TX,2016,F,Unknown or Not Stated,-9,291,28.3,2918.1
+765,4641,Texas,TX,2016,M,8th grade or less,1,7746,29.1,3277.4
+766,4642,Texas,TX,2016,M,9th through 12th grade with no diploma,2,30035,25.2,3244.1
+767,4643,Texas,TX,2016,M,High school graduate or GED completed,3,54595,25.8,3253.6
+768,4644,Texas,TX,2016,M,"Some college credit, but not a degree",4,44318,27.3,3290.7
+769,4645,Texas,TX,2016,M,"Associate degree (AA, AS)",5,12383,29.4,3324.7
+770,4646,Texas,TX,2016,M,"Bachelor's degree (BA, AB, BS)",6,36613,31.1,3363.0
+771,4647,Texas,TX,2016,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,13452,32.6,3335.2
+772,4648,Texas,TX,2016,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,3900,33.5,3320.4
+773,4649,Texas,TX,2016,M,Unknown or Not Stated,-9,297,28.4,3048.7
+774,4650,Texas,TX,2017,F,8th grade or less,1,6344,29.4,3189.1
+775,4651,Texas,TX,2017,F,9th through 12th grade with no diploma,2,26366,25.4,3145.1
+776,4652,Texas,TX,2017,F,High school graduate or GED completed,3,51469,26.0,3150.2
+777,4653,Texas,TX,2017,F,"Some college credit, but not a degree",4,40629,27.6,3177.2
+778,4654,Texas,TX,2017,F,"Associate degree (AA, AS)",5,11804,29.5,3201.7
+779,4655,Texas,TX,2017,F,"Bachelor's degree (BA, AB, BS)",6,33846,31.2,3236.9
+780,4656,Texas,TX,2017,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,12670,32.7,3220.2
+781,4657,Texas,TX,2017,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,3693,33.6,3207.9
+782,4658,Texas,TX,2017,F,Unknown or Not Stated,-9,271,29.1,2908.8
+783,4659,Texas,TX,2017,M,8th grade or less,1,6569,29.3,3288.4
+784,4660,Texas,TX,2017,M,9th through 12th grade with no diploma,2,27281,25.4,3247.0
+785,4661,Texas,TX,2017,M,High school graduate or GED completed,3,53662,25.9,3253.9
+786,4662,Texas,TX,2017,M,"Some college credit, but not a degree",4,42354,27.5,3289.2
+787,4663,Texas,TX,2017,M,"Associate degree (AA, AS)",5,12204,29.5,3312.0
+788,4664,Texas,TX,2017,M,"Bachelor's degree (BA, AB, BS)",6,35531,31.2,3355.7
+789,4665,Texas,TX,2017,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,13008,32.7,3331.3
+790,4666,Texas,TX,2017,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,4038,33.6,3309.0
+791,4667,Texas,TX,2017,M,Unknown or Not Stated,-9,311,29.0,2987.6
+792,4668,Texas,TX,2018,F,8th grade or less,1,5827,29.2,3182.9
+793,4669,Texas,TX,2018,F,9th through 12th grade with no diploma,2,24855,25.7,3137.3
+794,4670,Texas,TX,2018,F,High school graduate or GED completed,3,51788,26.1,3152.3
+795,4671,Texas,TX,2018,F,"Some college credit, but not a degree",4,39077,27.7,3178.6
+796,4672,Texas,TX,2018,F,"Associate degree (AA, AS)",5,12213,29.6,3196.5
+797,4673,Texas,TX,2018,F,"Bachelor's degree (BA, AB, BS)",6,34625,31.3,3235.4
+798,4674,Texas,TX,2018,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,12870,32.8,3215.3
+799,4675,Texas,TX,2018,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,3791,33.6,3191.6
+800,4676,Texas,TX,2018,F,Unknown or Not Stated,-9,257,29.3,2864.2
+801,4677,Texas,TX,2018,M,8th grade or less,1,6131,29.1,3276.4
+802,4678,Texas,TX,2018,M,9th through 12th grade with no diploma,2,25861,25.5,3231.8
+803,4679,Texas,TX,2018,M,High school graduate or GED completed,3,53892,26.1,3248.2
+804,4680,Texas,TX,2018,M,"Some college credit, but not a degree",4,40654,27.7,3283.6
+805,4681,Texas,TX,2018,M,"Associate degree (AA, AS)",5,12777,29.6,3317.8
+806,4682,Texas,TX,2018,M,"Bachelor's degree (BA, AB, BS)",6,36100,31.3,3354.4
+807,4683,Texas,TX,2018,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,13511,32.8,3326.6
+808,4684,Texas,TX,2018,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,4082,33.8,3324.9
+809,4685,Texas,TX,2018,M,Unknown or Not Stated,-9,313,29.7,3021.7
+810,4686,Texas,TX,2019,F,8th grade or less,1,6239,29.2,3186.5
+811,4687,Texas,TX,2019,F,9th through 12th grade with no diploma,2,22761,25.7,3133.1
+812,4688,Texas,TX,2019,F,High school graduate or GED completed,3,52532,26.2,3144.9
+813,4689,Texas,TX,2019,F,"Some college credit, but not a degree",4,38908,27.8,3169.0
+814,4690,Texas,TX,2019,F,"Associate degree (AA, AS)",5,12251,29.5,3197.9
+815,4691,Texas,TX,2019,F,"Bachelor's degree (BA, AB, BS)",6,34324,31.3,3232.8
+816,4692,Texas,TX,2019,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,13243,32.8,3208.3
+817,4693,Texas,TX,2019,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,3874,33.8,3199.1
+818,4694,Texas,TX,2019,F,Unknown or Not Stated,-9,480,29.3,3082.7
+819,4695,Texas,TX,2019,M,8th grade or less,1,6515,29.0,3269.1
+820,4696,Texas,TX,2019,M,9th through 12th grade with no diploma,2,23447,25.6,3224.8
+821,4697,Texas,TX,2019,M,High school graduate or GED completed,3,54944,26.1,3247.3
+822,4698,Texas,TX,2019,M,"Some college credit, but not a degree",4,40533,27.8,3280.0
+823,4699,Texas,TX,2019,M,"Associate degree (AA, AS)",5,12687,29.6,3299.5
+824,4700,Texas,TX,2019,M,"Bachelor's degree (BA, AB, BS)",6,36496,31.3,3347.1
+825,4701,Texas,TX,2019,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,13858,32.9,3329.3
+826,4702,Texas,TX,2019,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,4010,33.8,3315.5
+827,4703,Texas,TX,2019,M,Unknown or Not Stated,-9,497,29.1,3154.4
+828,4704,Texas,TX,2020,F,8th grade or less,1,5603,29.1,3179.6
+829,4705,Texas,TX,2020,F,9th through 12th grade with no diploma,2,20459,25.6,3132.6
+830,4706,Texas,TX,2020,F,High school graduate or GED completed,3,52472,26.3,3149.8
+831,4707,Texas,TX,2020,F,"Some college credit, but not a degree",4,37683,27.9,3174.7
+832,4708,Texas,TX,2020,F,"Associate degree (AA, AS)",5,12187,29.5,3180.6
+833,4709,Texas,TX,2020,F,"Bachelor's degree (BA, AB, BS)",6,34198,31.3,3238.2
+834,4710,Texas,TX,2020,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,12841,33.0,3207.4
+835,4711,Texas,TX,2020,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,3638,34.0,3183.8
+836,4712,Texas,TX,2020,F,Unknown or Not Stated,-9,636,29.2,3002.5
+837,4713,Texas,TX,2020,M,8th grade or less,1,5784,29.2,3284.4
+838,4714,Texas,TX,2020,M,9th through 12th grade with no diploma,2,21630,25.6,3229.6
+839,4715,Texas,TX,2020,M,High school graduate or GED completed,3,54950,26.2,3255.4
+840,4716,Texas,TX,2020,M,"Some college credit, but not a degree",4,38872,27.9,3281.6
+841,4717,Texas,TX,2020,M,"Associate degree (AA, AS)",5,12753,29.6,3304.4
+842,4718,Texas,TX,2020,M,"Bachelor's degree (BA, AB, BS)",6,36278,31.3,3348.7
+843,4719,Texas,TX,2020,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,13653,32.9,3328.5
+844,4720,Texas,TX,2020,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,3903,34.0,3327.0
+845,4721,Texas,TX,2020,M,Unknown or Not Stated,-9,650,29.1,3188.9
+846,4722,Texas,TX,2021,F,8th grade or less,1,5535,29.0,3157.2
+847,4723,Texas,TX,2021,F,9th through 12th grade with no diploma,2,19060,25.6,3124.1
+848,4724,Texas,TX,2021,F,High school graduate or GED completed,3,53328,26.4,3143.8
+849,4725,Texas,TX,2021,F,"Some college credit, but not a degree",4,36770,28.1,3165.2
+850,4726,Texas,TX,2021,F,"Associate degree (AA, AS)",5,12882,29.6,3182.2
+851,4727,Texas,TX,2021,F,"Bachelor's degree (BA, AB, BS)",6,36122,31.3,3231.5
+852,4728,Texas,TX,2021,F,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,13974,32.9,3208.6
+853,4729,Texas,TX,2021,F,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,4096,34.0,3185.0
+854,4730,Texas,TX,2021,F,Unknown or Not Stated,-9,813,30.0,3084.4
+855,4731,Texas,TX,2021,M,8th grade or less,1,5925,29.0,3235.3
+856,4732,Texas,TX,2021,M,9th through 12th grade with no diploma,2,19711,25.6,3213.4
+857,4733,Texas,TX,2021,M,High school graduate or GED completed,3,55462,26.3,3239.4
+858,4734,Texas,TX,2021,M,"Some college credit, but not a degree",4,38140,28.2,3279.2
+859,4735,Texas,TX,2021,M,"Associate degree (AA, AS)",5,13549,29.6,3289.5
+860,4736,Texas,TX,2021,M,"Bachelor's degree (BA, AB, BS)",6,38187,31.3,3336.6
+861,4737,Texas,TX,2021,M,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,14899,33.0,3319.3
+862,4738,Texas,TX,2021,M,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,4277,34.0,3305.4
+863,4739,Texas,TX,2021,M,Unknown or Not Stated,-9,864,29.8,3124.7
