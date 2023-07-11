@@ -16,8 +16,9 @@ import numpy as np
 #################################################
 # Database Setup
 #################################################
-engine = create_engine("sqlite:///data/USbirths.sqlite")
-test = pd.read_sql("select * from births",con = engine.raw_connection())
+## engine = create_engine("sqlite:///data/USbirths.sqlite")
+engine = create_engine("sqlite:///sql_files/us_births.sqlite")
+test = pd.read_sql("select * from EightStatesData",con = engine.raw_connection())
 print(test)
 
 # # reflect an existing database into a new model
