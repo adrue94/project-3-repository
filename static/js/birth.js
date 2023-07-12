@@ -15,10 +15,8 @@ d3.json(gender_url).then(function (data) {
 d3.json(url).then(function (data) {
     console.log(data);
 
-<<<<<<< HEAD
     // assign a variable to access the data
     let elom = data
-=======
     //iterate over the array to create indexes
     data.forEach(function(row, index) {
         row.index = index;
@@ -41,7 +39,6 @@ d3.json(url).then(function (data) {
 
     // assign a variable to access the Education Level data
     let elom = data.EduLevel
->>>>>>> 4c40468 (progress on js, updated html)
 
     // assign a variable to access the HTML tag for the dropdown menu location
     dropdown = d3.select("#selDataset")
