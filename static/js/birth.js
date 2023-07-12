@@ -15,41 +15,61 @@ d3.json(gender_url).then(function (data) {
 d3.json(url).then(function (data) {
     console.log(data);
 
+<<<<<<< HEAD
     // assign a variable to access the data
     let elom = data
+=======
+    //iterate over the array to create indexes
+    data.forEach(function(row, index) {
+        row.index = index;
+      });
+     
+    // console log the new array
+    console.log(data);
+    
+    //
+    // create a function to return only North Carolina data
+    function northCarolina(state) {
+        return state.State == "North Carolina";
+    }
+    // call the custom function with a filter
+    let stateInData = data.filter(northCarolina);
 
-    // assign a variable to access the HTML tag for the dropdown menu
+    //Display the result in console
+    console.log(stateInData);
+    //
+
+    // assign a variable to access the Education Level data
+    let elom = data.EduLevel
+>>>>>>> 4c40468 (progress on js, updated html)
+
+    // assign a variable to access the HTML tag for the dropdown menu location
     dropdown = d3.select("#selDataset")
 
     // for loop to iterate through the values and display the index of choice
-    for (let i = 0; i < elom.length; i++) {
+    for (let i = 0; i < data.length; i++) {
         dropdown
             .append("option")
-            .text(elom[i])
-            .property("value", elom[i]);
+            .text(data[i])
+            .property("value", data[i]);
     };
 
-    buildMetaData(elom[0])
+    buildMetaData(data[0])
 });
 
-// code from StackOverflow to create unique values
-// that we can iterate through for the drop down
-// var unique = array.map(item => item.age)
-//   .filter((value, index, self) => self.indexOf(value) === index)
-
-// create a function to 
+// create a function to populate sample metadata class with info
 function buildMetaData(id) {
     d3.json(url).then(function (data) {
-        // let meta = data.metadata
+        let meta = data.EduLevelCode
 
-        let resultArray = data.filter(sampleObj => sampleObj.elom == elom);
-        // console.log("resultArray")
-        console.log(resultArray)
+        let resultArray = data.filter(sampleObj => sampleObj.data == data);
+        console.log("resultArray")
+        // console.log(resultArray)
 
         // assign result variable to grab the first index of the resulting array
         let result = resultArray[0];
 
-        // assign a box variable which grabs the metadata for the display
+        // assign a box variable where the data will display
         let box = d3.select("#sample-metadata");
 
         // clears the metadata in the console log so it can be filled with the next pull
@@ -63,6 +83,6 @@ function buildMetaData(id) {
     })
 };
 
-function optionChanged(elom){
-    buildMetaData(elom)
+function optionChanged(meta){
+    buildMetaData(meta)
 };

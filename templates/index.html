@@ -28,15 +28,14 @@
   <link rel="stylesheet" type="text/css" href="static/css/styles.css">
   <div class="bloc-logo">
     <canvas id="logo-canvas"></canvas>
-    <!-- <a href="index.html" class="logo-mask">Granim.js</a> -->
 </div>
 </head>
 <body>
   <div class="container">
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
-        <h1>Analysis to US Birth Data by State & Education</h1>
-        <p>Use the dropdown below to explore the dataset</p>
+        <h1>Analysis to North Carolina births by Education Level of Mother</h1>
+        <p>Use the dropdown menu below to explore the dataset</p>
       </div>
     </div>
     <div class="row">
@@ -45,13 +44,13 @@
           <h5>Select an Education Level:</h5>
           <select id="selDataset" onchange="optionChanged(this.value)"></select>
         </div>
-        <div class="panel panel-primary">
+        <!-- <div class="panel panel-primary">
           <div class="panel-heading">
             <h3 class="panel-title">State Information</h3>
           </div>
           <div id="sample-metadata" class="panel-body"></div>
         </div>
-      </div>
+      </div> -->
       <div class="col-md-5">
         <div id="bar"></div>
       </div>
