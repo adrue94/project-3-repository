@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, render_template
-import requests 
+import requests
 import datetime as dt
 import pandas as pd
 
@@ -18,8 +18,9 @@ import numpy as np
 #################################################
 ## engine = create_engine("sqlite:///data/USbirths.sqlite")
 engine = create_engine("sqlite:///sql_files/us_births.sqlite")
-test = pd.read_sql("select * from EightStatesData",con = engine.raw_connection())
+test = pd.read_sql("select * from EightStatesData", con=engine.raw_connection())
 print(test)
+
 
 # # reflect an existing database into a new model
 # Base = automap_base()
@@ -28,41 +29,42 @@ print(test)
 
 # print(Base.classes.keys())
 # # Save reference to the table
-# Births = Base.classes.births
+# Births = Base.classes.EightStatesData
 
 ##############################################
 # Flask Setup
 #################################################
 app = Flask(__name__)
 
-################################################
-# Flask Routes
-#################################################
 
 @app.route("/")
 def US_births():
     """List all available API routes."""
     return render_template("index.html")
-        
+
 
 @app.route("/api/v1.0/state")
 def state():
 
-    # Create our session (link) from Python to the DB
-    # session = Session(engine)
-    # result = session.query(Births).all()
-
-    # ""list using date as the key and prcp as the value.""
-        # stateresult = []
-        # for x in stateresult:
-        #     statedata = {
-        #         "State":x.State, "Education_Level_of_mother":x.Education_Level_of_Mother
-        #     }
-        #     stateresult.append(statedata)
-        # return jsonify(stateresult)
-
     return test.to_json(orient="records")
+
+
+@app.route("/api/v1.0/gender")
+def gender():
+
+    df2 = test.groupby(['Year', 'Gender'])
+    return df2['Births'].agg('sum').to_json()
+
+
+@app.route("/api/v1.0/eduLevel")
+def education():
+
+    edu = list(test.EduLevel.unique())
+    print(edu)
+    return jsonify(edu)
+
+    #plot.bar(x='Gender', ylabel='Number of Births', title='Total number of births group by year and gender', color=['blue', 'green'])
+
 
 if __name__ == '__main__':
     app.run(debug=True)
-

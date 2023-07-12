@@ -2,14 +2,21 @@
 console.log("birth.js")
 
 // Place url in a constant variable
-const url = "http://127.0.0.1:5000//api/v1.0/state"
+const url = "http://127.0.0.1:5000/api/v1.0/eduLevel"
+const gender_url = "http://127.0.0.1:5000/api/v1.0/gender"
+
+
+d3.json(gender_url).then(function (data) {
+    console.log(data)
+})
+
 
 // Fetch the JSON data and console log it 
 d3.json(url).then(function (data) {
     console.log(data);
 
     // assign a variable to access the data
-    let elom = data.EduLevel
+    let elom = data
 
     // assign a variable to access the HTML tag for the dropdown menu
     dropdown = d3.select("#selDataset")
