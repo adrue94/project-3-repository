@@ -49,7 +49,7 @@
             }
 
             
-d3.json('../data/us_state_boundaries.json')
+d3.json('../../data/us_state_boundaries.json')
   .then(data => {
     var states = data;
 
@@ -82,7 +82,7 @@ d3.json('../data/us_state_boundaries.json')
         var state = feature.properties.NAME;
         
         
-        d3.csv('../data/state_data_merged_years.csv').then(function(data) {
+        d3.csv('../../data/state_data_merged_years.csv').then(function(data) {
           var educationData = data.find(function(d) {
             return d.State === state && d.Education_Level_Code === "1";
             //CHANGE THE EDUCATION LEVEL CODE --------------------------------------------------- - USE STRING
@@ -129,7 +129,7 @@ d3.json('../data/us_state_boundaries.json')
         onEachFeature: function (feature, layer) {
           var state = feature.properties.NAME;
           
-          d3.csv('../data/state_data_merged_years.csv').then(function(data) {
+          d3.csv('../../data/state_data_merged_years.csv').then(function(data) {
             var educationData = data.find(function(d) {
               return d.State === state && d.Education_Level_Code === "2";
             });
@@ -174,7 +174,7 @@ d3.json('../data/us_state_boundaries.json')
         onEachFeature: function (feature, layer) {
           var state = feature.properties.NAME;
           
-          d3.csv('../data/state_data_merged_years.csv').then(function(data) {
+          d3.csv('../../data/state_data_merged_years.csv').then(function(data) {
             var educationData = data.find(function(d) {
               return d.State === state && d.Education_Level_Code === "6";
               //CHANGE THE EDUCATION LEVEL CODE!!! ---------------------------------------------
@@ -222,7 +222,7 @@ d3.json('../data/us_state_boundaries.json')
         onEachFeature: function (feature, layer) {
           var state = feature.properties.NAME;
           
-          d3.csv('../data/state_data_merged_years.csv').then(function(data) {
+          d3.csv('../../data/state_data_merged_years.csv').then(function(data) {
             var educationData = data.find(function(d) {
               return d.State === state && d.Education_Level_Code === "8";
               //CHANGE THE EDUCATION LEVEL CODE --------------------------------------------------- - USE STRING
@@ -269,7 +269,7 @@ d3.json('../data/us_state_boundaries.json')
         onEachFeature: function (feature, layer) {
           var state = feature.properties.NAME;
           
-          d3.csv('../data/state_data_merged_years.csv').then(function(data) {
+          d3.csv('../../data/state_data_merged_years.csv').then(function(data) {
             var educationData = data.find(function(d) {
               return d.State === state && d.Education_Level_Code === "3";
               //CHANGE THE EDUCATION LEVEL CODE --------------------------------------------------- - USE STRING
@@ -317,7 +317,7 @@ d3.json('../data/us_state_boundaries.json')
         onEachFeature: function (feature, layer) {
           var state = feature.properties.NAME;
           
-          d3.csv('../data/state_data_merged_years.csv').then(function(data) {
+          d3.csv('../../data/state_data_merged_years.csv').then(function(data) {
             var educationData = data.find(function(d) {
               return d.State === state && d.Education_Level_Code === "7";
               //CHANGE THE EDUCATION LEVEL CODE --------------------------------------------------- - USE STRING
@@ -365,7 +365,7 @@ d3.json('../data/us_state_boundaries.json')
         onEachFeature: function (feature, layer) {
           var state = feature.properties.NAME;
           
-          d3.csv('../data/state_data_merged_years.csv').then(function(data) {
+          d3.csv('../../data/state_data_merged_years.csv').then(function(data) {
             var educationData = data.find(function(d) {
               return d.State === state && d.Education_Level_Code === "4";
               //CHANGE THE EDUCATION LEVEL CODE --------------------------------------------------- - USE STRING
@@ -411,7 +411,7 @@ d3.json('../data/us_state_boundaries.json')
     onEachFeature: function (feature, layer) {
       var state = feature.properties.NAME;
       
-      d3.csv('../data/state_data_merged_years.csv').then(function(data) {
+      d3.csv('../../data/state_data_merged_years.csv').then(function(data) {
         var educationData = data.find(function(d) {
           return d.State === state && d.Education_Level_Code === "5";
           //CHANGE THE EDUCATION LEVEL CODE!!! ---------------------------------------------
