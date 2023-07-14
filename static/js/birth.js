@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Connect the console log to the JavaScript file
 console.log("birth.js");
 
@@ -144,3 +145,98 @@ d3.json(gender_url).then(function (data) {
 
 
 
+=======
+// connect the console log to the javascript file
+console.log("birth.js")
+console.log("data.js")
+
+// // // Place url in a constant variable
+// // const url = "http://127.0.0.1:5000/api/v1.0/eduLevel"
+// // const gender_url = "http://127.0.0.1:5000/api/v1.0/gender"
+
+
+// Create an array of each state's data
+let alaska = Object.values(data.alaska);
+let california = Object.values(data.california);
+let districtOfColumbia = Object.values(data.districtOfColumbia);
+let florida = Object.values(data.florida);
+let hawaii = Object.values(data.hawaii);
+let newYork = Object.values(data.newYork);
+let northCarolina = Object.values(data.northCarolina);
+let texas = Object.values(data.texas);
+
+// // log each array into console
+// console.log(alaska);
+// console.log(california);
+// console.log(districtOfColumbia);
+// console.log(florida);
+// console.log(hawaii);
+// console.log(newYork);
+// console.log(northCarolina);
+// console.log(texas);
+
+// Create an array of category labels
+let labels = Object.keys(data.alaska);
+
+// Display the default plot
+function init() {
+  let data = [{
+    values: alaska,
+    labels: labels,
+    type: "pie"
+  }];
+
+  let layout = {
+    height: 600,
+    width: 800
+  };
+
+  Plotly.newPlot("pie", data, layout);
+}
+
+// On change to the DOM, call getData()
+d3.selectAll("#selDataset").on("change", getData);
+
+// Function called by DOM changes
+function getData() {
+  let dropdownMenu = d3.select("#selDataset");
+  // Assign the value of the dropdown menu option to a letiable
+  let dataset = dropdownMenu.property("value");
+  // Initialize an empty array for the state data
+  let data = [];
+
+  if (dataset == 'alaska') {
+      data = alaska;
+  }
+  else if (dataset == 'california') {
+      data = californa;
+  }
+  else if (dataset == 'districtOfColumbia') {
+      data = districtOfColumbia;
+  }
+  else if (dataset == 'hawaii') {
+    data = hawaii;
+  }
+  else if (dataset == 'florida') {
+    data = florida;
+  }
+  else if (dataset == 'newYork') {
+      data = newYork;
+  }
+  else if (dataset == 'northCarolina') {
+    data = northCarolina;
+  }
+  else if (dataset == 'texas') {
+    data = texas;
+  } 
+// Call function to update the chart
+  updatePlotly(data);
+}
+
+// Update the restyled plot's values
+function updatePlotly(newdata) {
+  Plotly.restyle("pie", "values", [newdata]);
+}
+
+init();
+>>>>>>> bbeb03e (working pie chart w/ dropdown)
