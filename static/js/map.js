@@ -49,7 +49,7 @@
             }
 
 
-            d3.json('/api/v1.0/us-state-boundaries')
+            d3.json('http://127.0.0.1:5000/api/v1.0/us-state-boundaries')
             .then(data => {
               var states = data;
 

@@ -30,6 +30,11 @@ def map_page():
     """List all available API routes."""
     return render_template("map.html")
 
+@app.route("/index_with_map")
+def index_with_map():
+    """List all available API routes."""
+    return render_template("index_with_map.html")
+
 @app.route("/api/v1.0/state")
 def state():
 
@@ -86,6 +91,13 @@ def us_state_boundaries():
     with open("data/us_state_boundaries.json") as json_file:
         data = json.load(json_file)
     return jsonify(data)
+
+@app.route("/api/v1.0/state_births_merged_years")
+def us_state_births_merged_years():
+    csv_file_path = "data/merged_years.csv"
+    data = pd.read_csv(csv_file_path)
+    json_data = data.to_json(orient="records")
+    return json_data
 
 if __name__ == '__main__':
     app.run(debug=True)
