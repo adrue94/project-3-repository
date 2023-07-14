@@ -33,7 +33,7 @@ def map_page():
 @app.route("/api/v1.0/state")
 def state():
 
-    return test.to_json(orient="records")
+    return jsonify(test.to_dict(orient="records"))
 
 
 @app.route("/api/v1.0/gender")
