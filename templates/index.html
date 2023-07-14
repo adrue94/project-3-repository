@@ -81,20 +81,40 @@
   </div>
 <!-- The div that holds our chart -->
 <div id="gender-year-births"></div>
-  <!-- The div that holds our map -->
-  <!-- <div id="map-id"></div> -->
 
+<!-- The div that holds our pie chart -->
+<h2>Average Birth Weight by Education Level</h2>
+    <p>Numbers on hover reflect the average birth weight (in grams) from 2016 through 2021.</p>
+    <select id="selDataset">
+        <option value="alaska">Alaska</option>
+        <option value="california">California</option>
+        <option value="districtOfColumbia">District of Columbia</option>
+        <option value="hawaii">Hawaii</option>
+        <option value="florida">Florida</option>
+        <option value="newYork">New York</option>
+        <option value="northCarolina">North Carolina</option>
+        <option value="texas">Texas</option>
+    </select>
+
+    <div id="pie"></div>
+
+  <!-- The div that holds our map -->
   <div id="map-id"></div>
   <script src="../static/js/rainbowvis.js"></script>
   <script src="../static/js/bridged_map.js"></script>
 
 
   <!-- Our JavaScript file -->
+<<<<<<< HEAD
   <script src="static/js/birth.js"></script>
 <<<<<<< HEAD
 =======
   <script src="static/js/weights.js"></script>
 >>>>>>> 6518970 (weights.js, haven't added pie to index.html)
+=======
+  <script src="static/js/data.js"></script>
+  <script src="static/js/births.js"></script>
+>>>>>>> 972d840 (added pie chart to birth.js+index.html)
 
 </body>
 

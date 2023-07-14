@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Connect the console log to the JavaScript file
 console.log("birth.js");
 
@@ -143,17 +142,11 @@ d3.json(gender_url).then(function (data) {
 });
 
 
+// Begin code for Pie Chart and associated Dropdown
 
-
-=======
 // connect the console log to the javascript file
 console.log("birth.js")
 console.log("data.js")
-
-// // // Place url in a constant variable
-// // const url = "http://127.0.0.1:5000/api/v1.0/eduLevel"
-// // const gender_url = "http://127.0.0.1:5000/api/v1.0/gender"
-
 
 // Create an array of each state's data
 let alaska = Object.values(data.alaska);
@@ -164,16 +157,6 @@ let hawaii = Object.values(data.hawaii);
 let newYork = Object.values(data.newYork);
 let northCarolina = Object.values(data.northCarolina);
 let texas = Object.values(data.texas);
-
-// // log each array into console
-// console.log(alaska);
-// console.log(california);
-// console.log(districtOfColumbia);
-// console.log(florida);
-// console.log(hawaii);
-// console.log(newYork);
-// console.log(northCarolina);
-// console.log(texas);
 
 // Create an array of category labels
 let labels = Object.keys(data.alaska);
@@ -249,4 +232,3 @@ function updatePlotly(newdata) {
 }
 
 init();
->>>>>>> bbeb03e (working pie chart w/ dropdown)
