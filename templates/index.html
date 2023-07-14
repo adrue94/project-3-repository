@@ -23,40 +23,44 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
   integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
   crossorigin=""></script>
-  <!-- RainbowVis for gradient creation-->
-  <script src="rainbowvis.js"></script>
+
+  <!-- Plotly CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/1.33.1/plotly.min.js"></script>
   <!-- Our CSS -->
-  <link rel="stylesheet" type="text/css" href="../static/css/styles.css">
-  <link rel="stylesheet" type="text/css" href="../static/css/map-style.css">
-  <div class="bloc-logo">
-    <canvas id="logo-canvas"></canvas>
-</div>
+  <link rel="stylesheet" type="text/css" href="static/css/styles.css">
 </head>
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 jumbotron text-center">
-        <h1>Analysis to North Carolina births by Education Level of Mother</h1>
-        <p>Use the dropdown menu below to explore the dataset</p>
-      </div>
-    </div>
+ 
     <div class="row">
       <div class="col-md-2">
         <div class="well">
           <h5>Select an Education Level:</h5>
-          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+          <select id="selDataset" onchange="optionChanged(this.value)" style="width:100%"></select>
         </div>
-        <!-- <div class="panel panel-primary">
+      </div>
+      <div class="col-md-10">
+        <div class="panel panel-primary">
           <div class="panel-heading">
             <h3 class="panel-title">State Information</h3>
           </div>
           <div id="sample-metadata" class="panel-body"></div>
         </div>
-      </div> -->
-      <div class="col-md-5">
-        <div id="bar"></div>
       </div>
-      <div class="col-md-5">
+      <div class="row">
+        <div class="col-md-6">
+          <div id="genderBarChart"></div>
+        </div>
+        <div class="col-md-6">
+          <!-- Other dashboard elements -->
+        </div>
+      </div>
+      
+          <!-- Other dashboard elements -->
+        </div>
+      </div>
+    
+
+      
         <div id="gauge"></div>
       </div>
     </div>
@@ -70,11 +74,11 @@
   <!-- The div that holds our map -->
 
   <div id="map-id"></div>
+  
 
 
   <!-- Our JavaScript file -->
-  <script src="../static/js/birth.js"></script>
-  <script src="../static/js/map.js"></script>
+  <script src="static/js/edubirth.js"></script>
 </body>
 
 </html>
