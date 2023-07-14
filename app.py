@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, render_template
+from flask import Flask, jsonify, render_template, request
 import requests
 import datetime as dt
 import pandas as pd
@@ -25,6 +25,10 @@ def US_births():
     """List all available API routes."""
     return render_template("index.html")
 
+@app.route("/map")
+def map_page():
+    """List all available API routes."""
+    return render_template("map.html")
 
 @app.route("/api/v1.0/state")
 def state():
@@ -70,7 +74,18 @@ def education_level(edu_level):
     metadata = filtered_data.to_dict("records")
     return jsonify(metadata)
 
+@app.route("/api/v1.0/births-by-state-education")
+def births_by_state_education():
+    edu_level = request.args.get('edu_level')
+    if edu_level:
+        births_by_state_edu = test[test['EduLevel'] == edu_level].groupby('State')['Births'].sum().reset_index()
+        return births_by_state_edu.to_json(orient="records")
     
+@app.route("/api/v1.0/us-state-boundaries")
+def us_state_boundaries():
+    with open("data/us_state_boundaries.json") as json_file:
+        data = json.load(json_file)
+    return jsonify(data)
 
 if __name__ == '__main__':
     app.run(debug=True)
