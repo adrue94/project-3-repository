@@ -64,7 +64,7 @@ def gender():
 
     return jsonify(data)
 
-    plot.bar(x='Gender', ylabel='Number of Births', title='Total number of births group by year and gender', color=['blue', 'green'])
+    plot.bar(x='Birth Gender per Year', ylabel='No. of Births', title='Total number of births group by year and gender', color=['blue', 'green'])
 
 
 

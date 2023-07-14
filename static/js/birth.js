@@ -114,13 +114,25 @@ d3.json(gender_url).then(function (data) {
 
   let barData = [maleBarTrace, femaleBarTrace];
 
+  // let barLayout = {
+  //   title: "Gender",
+  //   barmode: "group",
+  //   xaxis: {
+  //     tickmode: "linear"
+  //   }
+  // };
+
   let barLayout = {
-    title: "Gender",
+    title: "Gender of Births and total count of birth 2016-2021 ",
     barmode: "group",
     xaxis: {
-      tickmode: "linear"
+      title: " Birth Gender per Year 2016-2021"
+    },
+    yaxis: {
+      title: " Total No. of Birth per Year"
     }
   };
+  
 
   let responsive = {
     responsive: true
