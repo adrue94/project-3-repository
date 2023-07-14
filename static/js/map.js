@@ -48,210 +48,245 @@
             rainbow.colourAt(1); // default color for values below or equal to 10000
             }
 
+
+            d3.json('/api/v1.0/us-state-boundaries')
+            .then(data => {
+              var states = data;
+
+              var url;
+              let birthsByEducationLevel;
+              let noData;
+             // Declare the variable outside the fetch function
+
+          
+                  var map = new L.Map('map-id');
+                  map.setView(new L.LatLng(39.5, -98.35), 3); // Adjust the center and zoom level to include Alaska
+          
+                  var street = L.tileLayer('https://{s}.tile.thunderforest.com/mobile-atlas/{z}/{x}/{y}.png?apikey={apikey}', {
+                    attribution: '&copy; <a href="http://www.thunderforest.com/">Thunderforest</a>, &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                    apikey: '27d8f9327b65469c9e36e2665272b7f7',
+                    maxZoom: 22
+                  }).addTo(map);
+          
+                  var geojsonMarkerOptions = {
+                    radius: 1,
+                    fillColor: "white",
+                    color: "rgba(255,100,100,0.7)",
+                    weight: 1,
+                    opacity: 1,
+                    fillOpacity: 0
+                  };
+                  
+                  
+                   
+
+                  // Create the GeoJSON layer
+                  var eighth_grade_or_less = new L.GeoJSON(states, {
+                    pointToLayer: function (latlng) {
+                      return new L.CircleMarker(latlng, geojsonMarkerOptions);
+                    },
+                    onEachFeature: function (feature, layer) {
+                      var state = feature.properties.NAME;
+                      
+                      url = "http://127.0.0.1:5000/api/v1.0/births-by-state-education?state=" + state + "&edu_level=8th grade or less";
+
+
+                    fetch(url)
+                        .then(response => response.json())
+                        .then(data => {
+                            if (data && data.births) {
+                            birthsByEducationLevel = data.births;
+                            console.log('births:', birthsByEducationLevel);
+                            // Find the number of births in the state with the given education level
+                        // var birthsByEducationLevel = +educationData.Number_of_Births;
+                        var hexColor = '#' + getNormalizedColor(birthsByEducationLevel, 2448, 576186);
+                        console.log('Color:', hexColor);
+                        layer.setStyle({
+                          fillColor: hexColor,
+                          fillOpacity: getInverseOpacity(birthsByEducationLevel, 2448, 576186),
+                          color: 'black',
+                          weight: 3
+                        });
+          
+                        layer.bindPopup(feature.properties.NAME + "<br>Number of Births: " + birthsByEducationLevel);
+
+                            } else {
+                            // No birth data for the state
+                        layer.setStyle({
+                            fillColor: '#999999', // Gray fill color
+                            fillOpacity: 0.1, // Low opacity
+                            color: 'black',
+                            weight: 1
+                          });
             
-d3.json('../../data/us_state_boundaries.json')
-  .then(data => {
-    var states = data;
-
-    var map = new L.Map('map-id');
-    map.setView(new L.LatLng(39.5, -98.35), 3); // Adjust the center and zoom level to include Alaska
-
-    var street = L.tileLayer('https://{s}.tile.thunderforest.com/mobile-atlas/{z}/{x}/{y}.png?apikey={apikey}', {
-        attribution: '&copy; <a href="http://www.thunderforest.com/">Thunderforest</a>, &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-        apikey: '27d8f9327b65469c9e36e2665272b7f7',
-        maxZoom: 22
-    }).addTo(map);
-    
-
-    var geojsonMarkerOptions = {
-      radius: 1,
-      fillColor: "white",
-      color: "rgba(255,100,100,0.7)",
-      weight: 1,
-      opacity: 1,
-      fillOpacity: 0
-    };
-
-       //START COPY -----------------------------------------------------------------------
-    // Create the GeoJSON layer for eighth grade or less
-    var eighth_grade_or_less = new L.GeoJSON(null, {
-      pointToLayer: function (latlng) {
-        return new L.CircleMarker(latlng, geojsonMarkerOptions);
-      },
-      onEachFeature: function (feature, layer) {
-        var state = feature.properties.NAME;
+                          layer.bindPopup("No birth data available for " + feature.properties.NAME);
+                            }
+                        })
+                        .catch(error => {
+                            console.error("Error:", error);
+                        });
         
-        
-        d3.csv('../../data/state_data_merged_years.csv').then(function(data) {
-          var educationData = data.find(function(d) {
-            return d.State === state && d.Education_Level_Code === "1";
-            //CHANGE THE EDUCATION LEVEL CODE --------------------------------------------------- - USE STRING
-          });
-         
-          if (educationData) {
-            var birthsByEducationLevel = +educationData.Number_of_Births;
-            var hexColor = '#' + getNormalizedColor(birthsByEducationLevel, 2448, 576186);
-            console.log('Color:', hexColor);
-            layer.setStyle({
-              fillColor: hexColor,
-              fillOpacity: getInverseOpacity(birthsByEducationLevel, 2448, 576186),
-              color: 'black',
-              weight: 3
-            });
-
-            layer.bindPopup(feature.properties.NAME + "<br>Number of Births: " + birthsByEducationLevel);
-          } else {
-            // No birth data for the state
-            layer.setStyle({
-              fillColor: '#999999', // Gray fill color
-              fillOpacity: 0.1, // Low opacity
-              color: 'black',
-              weight: 1
-            });
-      
-            layer.bindPopup("No birth data available for " + feature.properties.NAME);
-          }
-        });
-      }
-    });
+                    }
+                  });
 
     // Iterate through states array and add each state's geojson data to the geojsonLayer
     states.features.forEach(function(state) {
         eighth_grade_or_less.addData(state); 
     });
 
-
-    // Create the GeoJSON layer for ninth grade with no diploma
-    var ninth_no_diploma = new L.GeoJSON(null, {
+    
+    var ninth_no_diploma = new L.GeoJSON(states, {
         pointToLayer: function (latlng) {
           return new L.CircleMarker(latlng, geojsonMarkerOptions);
         },
         onEachFeature: function (feature, layer) {
           var state = feature.properties.NAME;
           
-          d3.csv('../../data/state_data_merged_years.csv').then(function(data) {
-            var educationData = data.find(function(d) {
-              return d.State === state && d.Education_Level_Code === "2";
+          url = "http://127.0.0.1:5000/api/v1.0/births-by-state-education?state=" + state + "&edu_level=9th through 12th grade with no diploma";
+
+
+        fetch(url)
+            .then(response => response.json())
+            .then(data => {
+                if (data && data.births) {
+                birthsByEducationLevel = data.births;
+                // Find the number of births in the state with the given education level
+            // var birthsByEducationLevel = +educationData.Number_of_Births;
+            var hexColor = '#' + getNormalizedColor(birthsByEducationLevel, 30894, 1344240);
+            console.log('Color:', hexColor);
+            layer.setStyle({
+              fillColor: hexColor,
+              fillOpacity: getInverseOpacity(birthsByEducationLevel, 30894, 1344240),
+              color: 'black',
+              weight: 3
             });
-           
-            if (educationData) {
-              var birthsByEducationLevel = +educationData.Number_of_Births;
-              var hexColor = '#' + getNormalizedColor(birthsByEducationLevel, 30894, 1344240);
-              console.log('Color:', hexColor);
-              layer.setStyle({
-                fillColor: hexColor,
-                fillOpacity: getInverseOpacity(birthsByEducationLevel, 30894, 1344240),
-                color: 'black',
-                weight: 3
-              });
-  
-              layer.bindPopup(feature.properties.NAME + "<br>Number of Births: " + birthsByEducationLevel);
-            } else {
-              // No birth data for the state
-              layer.setStyle({
+
+            layer.bindPopup(feature.properties.NAME + "<br>Number of Births: " + birthsByEducationLevel);
+
+                } else {
+                // No birth data for the state
+            layer.setStyle({
                 fillColor: '#999999', // Gray fill color
                 fillOpacity: 0.1, // Low opacity
                 color: 'black',
                 weight: 1
               });
-        
+
               layer.bindPopup("No birth data available for " + feature.properties.NAME);
-            }
-          });
+                }
+            })
+            .catch(error => {
+                console.error("Error:", error);
+            });
+
         }
       });
+
+
       // Iterate through states array and add each state's geojson data to the geojsonLayer
       states.features.forEach(function(state) {
         ninth_no_diploma.addData(state); //CHANGE VARIABLE NAME FOR GRADE
       });
 
-
     // Create the GeoJSON layer for bachelors
-    var bachelors = new L.GeoJSON(null, {
+      var bachelors = new L.GeoJSON(states, {
         pointToLayer: function (latlng) {
           return new L.CircleMarker(latlng, geojsonMarkerOptions);
         },
         onEachFeature: function (feature, layer) {
           var state = feature.properties.NAME;
           
-          d3.csv('../../data/state_data_merged_years.csv').then(function(data) {
-            var educationData = data.find(function(d) {
-              return d.State === state && d.Education_Level_Code === "6";
-              //CHANGE THE EDUCATION LEVEL CODE!!! ---------------------------------------------
+          url = "http://127.0.0.1:5000/api/v1.0/births-by-state-education?state=" + state + "&edu_level=Bachelor's degree (BA, AB, BS)";
+
+
+        fetch(url)
+            .then(response => response.json())
+            .then(data => {
+                if (data && data.births) {
+                birthsByEducationLevel = data.births;
+                // Find the number of births in the state with the given education level
+            // var birthsByEducationLevel = +educationData.Number_of_Births;
+            var hexColor = '#' + getNormalizedColor(birthsByEducationLevel, 61548, 3277230);
+            console.log('Color:', hexColor);
+            layer.setStyle({
+              fillColor: hexColor,
+              fillOpacity: getInverseOpacity(birthsByEducationLevel, 61548, 3277230),
+              color: 'black',
+              weight: 3
             });
-           
-            if (educationData) {
-              var birthsByEducationLevel = +educationData.Number_of_Births;
-              var hexColor = '#' + getNormalizedColor(birthsByEducationLevel, 61548, 3277230);
-              console.log('Color:', hexColor);
-              layer.setStyle({
-                fillColor: hexColor,
-                fillOpacity: getInverseOpacity(birthsByEducationLevel, 61548, 3277230),
-                color: 'black',
-                weight: 3
-              });
-  
-              layer.bindPopup(feature.properties.NAME + "<br>Number of Births: " + birthsByEducationLevel);
-            } else {
-              // No birth data for the state
-              layer.setStyle({
+
+            layer.bindPopup(feature.properties.NAME + "<br>Number of Births: " + birthsByEducationLevel);
+
+                } else {
+                // No birth data for the state
+            layer.setStyle({
                 fillColor: '#999999', // Gray fill color
                 fillOpacity: 0.1, // Low opacity
                 color: 'black',
                 weight: 1
               });
-        
+
               layer.bindPopup("No birth data available for " + feature.properties.NAME);
-            }
-          });
+                }
+            })
+            .catch(error => {
+                console.error("Error:", error);
+            });
+
         }
       });
-  
+
       // Iterate through states array and add each state's geojson data to the geojsonLayer
       states.features.forEach(function(state) {
           bachelors.addData(state); 
       });
 
 
-
     // Create the GeoJSON layer for Doctorate/Professional degree
-    var doctorate_professional = new L.GeoJSON(null, {
+    var doctorate_professional = new L.GeoJSON(states, {
         pointToLayer: function (latlng) {
           return new L.CircleMarker(latlng, geojsonMarkerOptions);
         },
         onEachFeature: function (feature, layer) {
           var state = feature.properties.NAME;
           
-          d3.csv('../../data/state_data_merged_years.csv').then(function(data) {
-            var educationData = data.find(function(d) {
-              return d.State === state && d.Education_Level_Code === "8";
-              //CHANGE THE EDUCATION LEVEL CODE --------------------------------------------------- - USE STRING
+          url = "http://127.0.0.1:5000/api/v1.0/births-by-state-education?state=" + state + "&edu_level=Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)";
+
+
+        fetch(url)
+            .then(response => response.json())
+            .then(data => {
+                if (data && data.births) {
+                birthsByEducationLevel = data.births;
+                // Find the number of births in the state with the given education level
+            // var birthsByEducationLevel = +educationData.Number_of_Births;
+            var hexColor = '#' + getNormalizedColor(birthsByEducationLevel, 7506, 501528);
+            console.log('Color:', hexColor);
+            layer.setStyle({
+              fillColor: hexColor,
+              fillOpacity: getInverseOpacity(birthsByEducationLevel, 7506, 501528),
+              color: 'black',
+              weight: 3
             });
-           
-            if (educationData) {
-              var birthsByEducationLevel = +educationData.Number_of_Births;
-              var hexColor = '#' + getNormalizedColor(birthsByEducationLevel, 7506, 501528);
-              console.log('Color:', hexColor);
-              layer.setStyle({
-                fillColor: hexColor,
-                fillOpacity: getInverseOpacity(birthsByEducationLevel, 7506, 501528),
-                color: 'black',
-                weight: 3
-              });
-  
-              layer.bindPopup(feature.properties.NAME + "<br>Number of Births: " + birthsByEducationLevel);
-            } else {
-              // No birth data for the state
-              layer.setStyle({
+
+            layer.bindPopup(feature.properties.NAME + "<br>Number of Births: " + birthsByEducationLevel);
+
+                } else {
+                // No birth data for the state
+            layer.setStyle({
                 fillColor: '#999999', // Gray fill color
                 fillOpacity: 0.1, // Low opacity
                 color: 'black',
                 weight: 1
               });
-        
+
               layer.bindPopup("No birth data available for " + feature.properties.NAME);
-            }
-          });
+                }
+            })
+            .catch(error => {
+                console.error("Error:", error);
+            });
+
         }
       });
       // Iterate through states array and add each state's geojson data to the geojsonLayer
@@ -260,95 +295,106 @@ d3.json('../../data/us_state_boundaries.json')
       });
 
 
-   
-    // Create the GeoJSON layer for Doctorate/Professional degree
-    var highschool_ged = new L.GeoJSON(null, {
-        pointToLayer: function (latlng) {
-          return new L.CircleMarker(latlng, geojsonMarkerOptions);
-        },
-        onEachFeature: function (feature, layer) {
-          var state = feature.properties.NAME;
-          
-          d3.csv('../../data/state_data_merged_years.csv').then(function(data) {
-            var educationData = data.find(function(d) {
-              return d.State === state && d.Education_Level_Code === "3";
-              //CHANGE THE EDUCATION LEVEL CODE --------------------------------------------------- - USE STRING
-            });
-           
-            if (educationData) {
-              var birthsByEducationLevel = +educationData.Number_of_Births;
-              var hexColor = '#' + getNormalizedColor(birthsByEducationLevel, 109842, 3860538);
-              console.log('Color:', hexColor);
-              layer.setStyle({
-                fillColor: hexColor,
-                fillOpacity: getInverseOpacity(birthsByEducationLevel, 109842, 3860538),
-                color: 'black',
-                weight: 3
-              });
-  
-              layer.bindPopup(feature.properties.NAME + "<br>Number of Births: " + birthsByEducationLevel);
+   // Create the GeoJSON layer for high school/ged
+   var highschool_ged = new L.GeoJSON(states, {
+    pointToLayer: function (latlng) {
+      return new L.CircleMarker(latlng, geojsonMarkerOptions);
+    },
+    onEachFeature: function (feature, layer) {
+      var state = feature.properties.NAME;
+      
+      url = "http://127.0.0.1:5000/api/v1.0/births-by-state-education?state=" + state + "&edu_level=High school graduate or GED completed";
+
+
+    fetch(url)
+        .then(response => response.json())
+        .then(data => {
+            if (data && data.births) {
+            birthsByEducationLevel = data.births;
+            // Find the number of births in the state with the given education level
+        // var birthsByEducationLevel = +educationData.Number_of_Births;
+        var hexColor = '#' + getNormalizedColor(birthsByEducationLevel, 109842, 3860538);
+        console.log('Color:', hexColor);
+        layer.setStyle({
+          fillColor: hexColor,
+          fillOpacity: getInverseOpacity(birthsByEducationLevel, 109842, 3860538),
+          color: 'black',
+          weight: 3
+        });
+
+        layer.bindPopup(feature.properties.NAME + "<br>Number of Births: " + birthsByEducationLevel);
+
             } else {
-              // No birth data for the state
-              layer.setStyle({
-                fillColor: '#999999', // Gray fill color
-                fillOpacity: 0.1, // Low opacity
-                color: 'black',
-                weight: 1
-              });
-        
-              layer.bindPopup("No birth data available for " + feature.properties.NAME);
-            }
+            // No birth data for the state
+        layer.setStyle({
+            fillColor: '#999999', // Gray fill color
+            fillOpacity: 0.1, // Low opacity
+            color: 'black',
+            weight: 1
           });
-        }
-      });
-  
+
+          layer.bindPopup("No birth data available for " + feature.properties.NAME);
+            }
+        })
+        .catch(error => {
+            console.error("Error:", error);
+        });
+
+    }
+  });
       // Iterate through states array and add each state's geojson data to the geojsonLayer
       states.features.forEach(function(state) {
         highschool_ged.addData(state); 
       });
 
 
-
     // Create the GeoJSON layer for Master's degree
     var masters = new L.GeoJSON(null, {
-        pointToLayer: function (latlng) {
-          return new L.CircleMarker(latlng, geojsonMarkerOptions);
-        },
-        onEachFeature: function (feature, layer) {
-          var state = feature.properties.NAME;
-          
-          d3.csv('../../data/state_data_merged_years.csv').then(function(data) {
-            var educationData = data.find(function(d) {
-              return d.State === state && d.Education_Level_Code === "7";
-              //CHANGE THE EDUCATION LEVEL CODE --------------------------------------------------- - USE STRING
-            });
-           
-            if (educationData) {
-              var birthsByEducationLevel = +educationData.Number_of_Births;
-              var hexColor = '#' + getNormalizedColor(birthsByEducationLevel, 23712, 1492872);
-              console.log('Color:', hexColor);
-              layer.setStyle({
-                fillColor: hexColor,
-                fillOpacity: getInverseOpacity(birthsByEducationLevel, 23712, 1492872),
-                color: 'black',
-                weight: 3
-              });
-  
-              layer.bindPopup(feature.properties.NAME + "<br>Number of Births: " + birthsByEducationLevel);
+    pointToLayer: function (latlng) {
+      return new L.CircleMarker(latlng, geojsonMarkerOptions);
+    },
+    onEachFeature: function (feature, layer) {
+      var state = feature.properties.NAME;
+      
+      url = "http://127.0.0.1:5000/api/v1.0/births-by-state-education?state=" + state + "&edu_level=Master's degree (MA, MS, MEng, MEd, MSW, MBA)";
+
+
+    fetch(url)
+        .then(response => response.json())
+        .then(data => {
+            if (data && data.births) {
+            birthsByEducationLevel = data.births;
+            // Find the number of births in the state with the given education level
+        // var birthsByEducationLevel = +educationData.Number_of_Births;
+        var hexColor = '#' + getNormalizedColor(birthsByEducationLevel, 23712, 1492872);
+        console.log('Color:', hexColor);
+        layer.setStyle({
+          fillColor: hexColor,
+          fillOpacity: getInverseOpacity(birthsByEducationLevel, 23712, 1492872),
+          color: 'black',
+          weight: 3
+        });
+
+        layer.bindPopup(feature.properties.NAME + "<br>Number of Births: " + birthsByEducationLevel);
+
             } else {
-              // No birth data for the state
-              layer.setStyle({
-                fillColor: '#999999', // Gray fill color
-                fillOpacity: 0.1, // Low opacity
-                color: 'black',
-                weight: 1
-              });
-        
-              layer.bindPopup("No birth data available for " + feature.properties.NAME);
-            }
+            // No birth data for the state
+        layer.setStyle({
+            fillColor: '#999999', // Gray fill color
+            fillOpacity: 0.1, // Low opacity
+            color: 'black',
+            weight: 1
           });
-        }
-      });
+
+          layer.bindPopup("No birth data available for " + feature.properties.NAME);
+            }
+        })
+        .catch(error => {
+            console.error("Error:", error);
+        });
+
+    }
+  });
   
       // Iterate through states array and add each state's geojson data to the geojsonLayer
       states.features.forEach(function(state) {
@@ -356,94 +402,108 @@ d3.json('../../data/us_state_boundaries.json')
       });
   
 
-  
     // Create the GeoJSON layer for Some College,no degree
     var some_college_no_degree = new L.GeoJSON(null, {
-        pointToLayer: function (latlng) {
-          return new L.CircleMarker(latlng, geojsonMarkerOptions);
-        },
-        onEachFeature: function (feature, layer) {
-          var state = feature.properties.NAME;
-          
-          d3.csv('../../data/state_data_merged_years.csv').then(function(data) {
-            var educationData = data.find(function(d) {
-              return d.State === state && d.Education_Level_Code === "4";
-              //CHANGE THE EDUCATION LEVEL CODE --------------------------------------------------- - USE STRING
-            });
-           
-            if (educationData) {
-              var birthsByEducationLevel = +educationData.Number_of_Births;
-              var hexColor = '#' + getNormalizedColor(birthsByEducationLevel, 91158, 3117966);
-              console.log('Color:', hexColor);
-              layer.setStyle({
-                fillColor: hexColor,
-                fillOpacity: getInverseOpacity(birthsByEducationLevel, 91158, 3117966),
-                color: 'black',
-                weight: 3
-              });
-  
-              layer.bindPopup(feature.properties.NAME + "<br>Number of Births: " + birthsByEducationLevel);
-            } else {
-              // No birth data for the state
-              layer.setStyle({
-                fillColor: '#999999', // Gray fill color
-                fillOpacity: 0.1, // Low opacity
-                color: 'black',
-                weight: 1
-              });
-        
-              layer.bindPopup("No birth data available for " + feature.properties.NAME);
-            }
-          });
-        }
-      });
-  
-      // Iterate through states array and add each state's geojson data to the geojsonLayer
-      states.features.forEach(function(state) {
-        some_college_no_degree.addData(state); //CHANGE VARIABLE NAME FOR GRADE-------------------------------
-      });
-  //END COPY PER EDUCATION -------------------------------------------------------------------
-   // Create the GeoJSON layer for associates or less
-   var associates = new L.GeoJSON(null, {
     pointToLayer: function (latlng) {
       return new L.CircleMarker(latlng, geojsonMarkerOptions);
     },
     onEachFeature: function (feature, layer) {
       var state = feature.properties.NAME;
       
-      d3.csv('../../data/state_data_merged_years.csv').then(function(data) {
-        var educationData = data.find(function(d) {
-          return d.State === state && d.Education_Level_Code === "5";
-          //CHANGE THE EDUCATION LEVEL CODE!!! ---------------------------------------------
-        });
-       
-        if (educationData) {
-          var birthsByEducationLevel = +educationData.Number_of_Births;
-          var hexColor = '#' + getNormalizedColor(birthsByEducationLevel, 29574, 1077582);
-          console.log('Color:', hexColor);
-          layer.setStyle({
-            fillColor: hexColor,
-            fillOpacity: getInverseOpacity(birthsByEducationLevel, 29574, 1077582),
-            color: 'black',
-            weight: 3
-          });
+      url = "http://127.0.0.1:5000/api/v1.0/births-by-state-education?state=" + state + "&edu_level=Some college credit, but not a degree";
 
-          layer.bindPopup(feature.properties.NAME + "<br>Number of Births: " + birthsByEducationLevel);
-        } else {
-          // No birth data for the state
-          layer.setStyle({
+
+    fetch(url)
+        .then(response => response.json())
+        .then(data => {
+            if (data && data.births) {
+            birthsByEducationLevel = data.births;
+            // Find the number of births in the state with the given education level
+        // var birthsByEducationLevel = +educationData.Number_of_Births;
+        var hexColor = '#' + getNormalizedColor(birthsByEducationLevel, 91158, 3117966);
+        console.log('Color:', hexColor);
+        layer.setStyle({
+          fillColor: hexColor,
+          fillOpacity: getInverseOpacity(birthsByEducationLevel, 91158, 3117966),
+          color: 'black',
+          weight: 3
+        });
+
+        layer.bindPopup(feature.properties.NAME + "<br>Number of Births: " + birthsByEducationLevel);
+
+            } else {
+            // No birth data for the state
+        layer.setStyle({
             fillColor: '#999999', // Gray fill color
             fillOpacity: 0.1, // Low opacity
             color: 'black',
             weight: 1
           });
-    
+
           layer.bindPopup("No birth data available for " + feature.properties.NAME);
-        }
-      });
+            }
+        })
+        .catch(error => {
+            console.error("Error:", error);
+        });
+
     }
   });
+  
+      // Iterate through states array and add each state's geojson data to the geojsonLayer
+      states.features.forEach(function(state) {
+        some_college_no_degree.addData(state); //CHANGE VARIABLE NAME FOR GRADE-------------------------------
+      });
 
+   // Create the GeoJSON layer for associates or less
+   var associates = new L.GeoJSON(null, {
+        pointToLayer: function (latlng) {
+          return new L.CircleMarker(latlng, geojsonMarkerOptions);
+        },
+        onEachFeature: function (feature, layer) {
+          var state = feature.properties.NAME;
+          
+          url = "http://127.0.0.1:5000/api/v1.0/births-by-state-education?state=" + state + "&edu_level=Associate degree (AA, AS)";
+    
+    
+        fetch(url)
+            .then(response => response.json())
+            .then(data => {
+                if (data && data.births) {
+                birthsByEducationLevel = data.births;
+                // Find the number of births in the state with the given education level
+            // var birthsByEducationLevel = +educationData.Number_of_Births;
+            var hexColor = '#' + getNormalizedColor(birthsByEducationLevel, 29574, 1077582);
+            console.log('Color:', hexColor);
+            layer.setStyle({
+              fillColor: hexColor,
+              fillOpacity: getInverseOpacity(birthsByEducationLevel, 29574, 1077582),
+              color: 'black',
+              weight: 3
+            });
+    
+            layer.bindPopup(feature.properties.NAME + "<br>Number of Births: " + birthsByEducationLevel);
+    
+                } else {
+                // No birth data for the state
+            layer.setStyle({
+                fillColor: '#999999', // Gray fill color
+                fillOpacity: 0.1, // Low opacity
+                color: 'black',
+                weight: 1
+              });
+    
+              layer.bindPopup("No birth data available for " + feature.properties.NAME);
+                }
+            })
+            .catch(error => {
+                console.error("Error:", error);
+            });
+    
+        }
+      });
+      
+  
   // Iterate through states array and add each state's geojson data to the geojsonLayer
   states.features.forEach(function(state) {
       associates.addData(state); //CHANGE VARIABLE NAME FOR GRADE --------------------------------
@@ -501,8 +561,16 @@ legend.addTo(map);
     L.control.layers(null, overlayMaps, { title: 'Education Level of Mother', collapsed: false }).addTo(map);
 
     // Add the layer group to the map
-    layerGroup.addTo(map);
+    layerGroup.addTo(map).catch(error => {
+        console.log('Error:', error);
+      });
+  
+
+    
+
+    
   })
+
   .catch(error => {
     console.log('Error:', error);
   });
