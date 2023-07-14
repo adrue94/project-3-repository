@@ -183,6 +183,16 @@ function init() {
   let data = [{
     values: alaska,
     labels: labels,
+    marker: {colors: [
+      'rgb(0, 20, 200)',  
+      'rgb(40, 60, 240)',  
+      'rgb(80, 100, 40)',  
+      'rgb(120, 30, 80)',  
+      'rgb(160, 70, 120)',  
+      'rgb(200, 110, 160)',  
+      'rgb(70, 150, 175)',  
+      'rgb(50, 60, 130)' 
+    ]},
     type: "pie"
   }];
 
