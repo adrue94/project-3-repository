@@ -28,9 +28,16 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/1.33.1/plotly.min.js"></script>
   <!-- Our CSS -->
   <link rel="stylesheet" type="text/css" href="static/css/styles.css">
-  <link rel="stylesheet" type="text/css" href="static/css/map-style.css">
 </head>
 <body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h1>US Birth Analysis Dashboard</h1>
+        <p>Use the interactive charts below to explore the dataset</p>
+      </div>
+    </div>
  
     <div class="row">
       <div class="col-md-2">
@@ -44,36 +51,38 @@
           <div class="panel-heading">
             <h3 class="panel-title">State Information</h3>
           </div>
-          <div id="sample-metadata" class="panel-body">
-          </div>
+          <div id="sample-metadata" class="panel-body"></div>
         </div>
       </div>
+
+    
       <div class="row">
         <div class="col-md-6">
-          <div id="genderBarChart">
-          </div>
+          <div id="genderBarChart"></div>
         </div>
-      </div>
         <div class="col-md-6">
-        </div>
-      <!-- </div>
+          <!-- Other dashboard elements
         </div>
       </div> -->
+      
+          <!-- Other dashboard elements
+        </div>
+      </div>/div> -->
+    
         <div id="gauge"></div>
       </div>
-    <!-- </div> -->
+    </div>
     <div class="row">
       <div class="col-md-12">
         <div id="bubble"></div>
       </div>
     </div>
-  <!-- </div> -->
+  </div>
 
   <!-- The div that holds our map -->
 
   <div id="map-id"></div>
-  <script src="../static/js/rainbowvis.js"></script>
-  <script src="../static/js/bridged_map.js"></script>
+  
 
 
   <!-- Our JavaScript file -->

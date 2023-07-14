@@ -11,7 +11,7 @@ from sqlalchemy import create_engine, func
 
 from json import dump
 import json
-import numpy as np
+
 
 engine = create_engine("sqlite:///sql_files/us_births.sqlite")
 test = pd.read_sql("select * from EightStatesData", con=engine.raw_connection())
