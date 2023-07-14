@@ -1,0 +1,65 @@
+State,State_Abbreviation,Education_Level_of_Mother,Education_Level_Code,Number_of_Births,Lat,Lng
+Alaska,AK,8th grade or less,1,2448,32.81,-86.79
+Alaska,AK,9th through 12th grade with no diploma,2,30894,32.81,-86.79
+Alaska,AK,"Associate degree (AA, AS)",5,29574,32.81,-86.79
+Alaska,AK,"Bachelor's degree (BA, AB, BS)",6,61548,32.81,-86.79
+Alaska,AK,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,7506,32.81,-86.79
+Alaska,AK,High school graduate or GED completed,3,109842,32.81,-86.79
+Alaska,AK,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,23712,32.81,-86.79
+Alaska,AK,"Some college credit, but not a degree",4,91158,32.81,-86.79
+California,CA,8th grade or less,1,576186,36.116203,-119.681564
+California,CA,9th through 12th grade with no diploma,2,1344240,36.116203,-119.681564
+California,CA,"Associate degree (AA, AS)",5,1077582,36.116203,-119.681564
+California,CA,"Bachelor's degree (BA, AB, BS)",6,3277230,36.116203,-119.681564
+California,CA,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,501528,36.116203,-119.681564
+California,CA,High school graduate or GED completed,3,3860538,36.116203,-119.681564
+California,CA,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,1492872,36.116203,-119.681564
+California,CA,"Some college credit, but not a degree",4,3117966,36.116203,-119.681564
+District of Columbia,DC,8th grade or less,1,10206,38.897438,-77.026817
+District of Columbia,DC,9th through 12th grade with no diploma,2,30042,38.897438,-77.026817
+District of Columbia,DC,"Associate degree (AA, AS)",5,9144,38.897438,-77.026817
+District of Columbia,DC,"Bachelor's degree (BA, AB, BS)",6,57090,38.897438,-77.026817
+District of Columbia,DC,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,37416,38.897438,-77.026817
+District of Columbia,DC,High school graduate or GED completed,3,71328,38.897438,-77.026817
+District of Columbia,DC,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,68886,38.897438,-77.026817
+District of Columbia,DC,"Some college credit, but not a degree",4,43830,38.897438,-77.026817
+Florida,FL,8th grade or less,1,226548,27.766279,-81.686783
+Florida,FL,9th through 12th grade with no diploma,2,654978,27.766279,-81.686783
+Florida,FL,"Associate degree (AA, AS)",5,812538,27.766279,-81.686783
+Florida,FL,"Bachelor's degree (BA, AB, BS)",6,1491444,27.766279,-81.686783
+Florida,FL,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,179502,27.766279,-81.686783
+Florida,FL,High school graduate or GED completed,3,2438124,27.766279,-81.686783
+Florida,FL,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,594522,27.766279,-81.686783
+Florida,FL,"Some college credit, but not a degree",4,1419192,27.766279,-81.686783
+Hawaii,HI,8th grade or less,1,4788,21.094318,-157.498337
+Hawaii,HI,9th through 12th grade with no diploma,2,99678,21.094318,-157.498337
+Hawaii,HI,"Associate degree (AA, AS)",5,67986,21.094318,-157.498337
+Hawaii,HI,"Bachelor's degree (BA, AB, BS)",6,136974,21.094318,-157.498337
+Hawaii,HI,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,9000,21.094318,-157.498337
+Hawaii,HI,High school graduate or GED completed,3,107670,21.094318,-157.498337
+Hawaii,HI,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,52452,21.094318,-157.498337
+Hawaii,HI,"Some college credit, but not a degree",4,119664,21.094318,-157.498337
+New York,NY,8th grade or less,1,338580,42.165726,-74.948051
+New York,NY,9th through 12th grade with no diploma,2,784788,42.165726,-74.948051
+New York,NY,"Associate degree (AA, AS)",5,637890,42.165726,-74.948051
+New York,NY,"Bachelor's degree (BA, AB, BS)",6,1646484,42.165726,-74.948051
+New York,NY,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,294426,42.165726,-74.948051
+New York,NY,High school graduate or GED completed,3,1819104,42.165726,-74.948051
+New York,NY,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,1189734,42.165726,-74.948051
+New York,NY,"Some college credit, but not a degree",4,1230792,42.165726,-74.948051
+North Carolina,NC,8th grade or less,1,145890,35.630066,-79.806419
+North Carolina,NC,9th through 12th grade with no diploma,2,413790,35.630066,-79.806419
+North Carolina,NC,"Associate degree (AA, AS)",5,406146,35.630066,-79.806419
+North Carolina,NC,"Bachelor's degree (BA, AB, BS)",6,876768,35.630066,-79.806419
+North Carolina,NC,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,112260,35.630066,-79.806419
+North Carolina,NC,High school graduate or GED completed,3,1037490,35.630066,-79.806419
+North Carolina,NC,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,381846,35.630066,-79.806419
+North Carolina,NC,"Some college credit, but not a degree",4,907968,35.630066,-79.806419
+Texas,TX,8th grade or less,1,453330,31.054487,-97.563461
+Texas,TX,9th through 12th grade with no diploma,2,1740918,31.054487,-97.563461
+Texas,TX,"Associate degree (AA, AS)",5,898716,31.054487,-97.563461
+Texas,TX,"Bachelor's degree (BA, AB, BS)",6,2563920,31.054487,-97.563461
+Texas,TX,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,283242,31.054487,-97.563461
+Texas,TX,High school graduate or GED completed,3,3847224,31.054487,-97.563461
+Texas,TX,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,964476,31.054487,-97.563461
+Texas,TX,"Some college credit, but not a degree",4,2882718,31.054487,-97.563461

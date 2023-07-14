@@ -1,0 +1,73 @@
+State,State_Abbreviation,Education_Level_of_Mother,Education_Level_Code,Number_of_Births
+Alaska,AK,8th grade or less,1,2448
+Alaska,AK,9th through 12th grade with no diploma,2,30894
+Alaska,AK,"Associate degree (AA, AS)",5,29574
+Alaska,AK,"Bachelor's degree (BA, AB, BS)",6,61548
+Alaska,AK,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,7506
+Alaska,AK,High school graduate or GED completed,3,109842
+Alaska,AK,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,23712
+Alaska,AK,"Some college credit, but not a degree",4,91158
+Alaska,AK,Unknown or Not Stated,-9,5706
+California,CA,8th grade or less,1,576186
+California,CA,9th through 12th grade with no diploma,2,1344240
+California,CA,"Associate degree (AA, AS)",5,1077582
+California,CA,"Bachelor's degree (BA, AB, BS)",6,3277230
+California,CA,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,501528
+California,CA,High school graduate or GED completed,3,3860538
+California,CA,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,1492872
+California,CA,"Some college credit, but not a degree",4,3117966
+California,CA,Unknown or Not Stated,-9,968364
+District of Columbia,DC,8th grade or less,1,10206
+District of Columbia,DC,9th through 12th grade with no diploma,2,30042
+District of Columbia,DC,"Associate degree (AA, AS)",5,9144
+District of Columbia,DC,"Bachelor's degree (BA, AB, BS)",6,57090
+District of Columbia,DC,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,37416
+District of Columbia,DC,High school graduate or GED completed,3,71328
+District of Columbia,DC,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,68886
+District of Columbia,DC,"Some college credit, but not a degree",4,43830
+District of Columbia,DC,Unknown or Not Stated,-9,3516
+Florida,FL,8th grade or less,1,226548
+Florida,FL,9th through 12th grade with no diploma,2,654978
+Florida,FL,"Associate degree (AA, AS)",5,812538
+Florida,FL,"Bachelor's degree (BA, AB, BS)",6,1491444
+Florida,FL,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,179502
+Florida,FL,High school graduate or GED completed,3,2438124
+Florida,FL,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,594522
+Florida,FL,"Some college credit, but not a degree",4,1419192
+Florida,FL,Unknown or Not Stated,-9,79914
+Hawaii,HI,8th grade or less,1,4788
+Hawaii,HI,9th through 12th grade with no diploma,2,99678
+Hawaii,HI,"Associate degree (AA, AS)",5,67986
+Hawaii,HI,"Bachelor's degree (BA, AB, BS)",6,136974
+Hawaii,HI,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,9000
+Hawaii,HI,High school graduate or GED completed,3,107670
+Hawaii,HI,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,52452
+Hawaii,HI,"Some college credit, but not a degree",4,119664
+Hawaii,HI,Unknown or Not Stated,-9,6288
+New York,NY,8th grade or less,1,338580
+New York,NY,9th through 12th grade with no diploma,2,784788
+New York,NY,"Associate degree (AA, AS)",5,637890
+New York,NY,"Bachelor's degree (BA, AB, BS)",6,1646484
+New York,NY,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,294426
+New York,NY,High school graduate or GED completed,3,1819104
+New York,NY,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,1189734
+New York,NY,"Some college credit, but not a degree",4,1230792
+New York,NY,Unknown or Not Stated,-9,49464
+North Carolina,NC,8th grade or less,1,145890
+North Carolina,NC,9th through 12th grade with no diploma,2,413790
+North Carolina,NC,"Associate degree (AA, AS)",5,406146
+North Carolina,NC,"Bachelor's degree (BA, AB, BS)",6,876768
+North Carolina,NC,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,112260
+North Carolina,NC,High school graduate or GED completed,3,1037490
+North Carolina,NC,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,381846
+North Carolina,NC,"Some college credit, but not a degree",4,907968
+North Carolina,NC,Unknown or Not Stated,-9,12516
+Texas,TX,8th grade or less,1,453330
+Texas,TX,9th through 12th grade with no diploma,2,1740918
+Texas,TX,"Associate degree (AA, AS)",5,898716
+Texas,TX,"Bachelor's degree (BA, AB, BS)",6,2563920
+Texas,TX,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",8,283242
+Texas,TX,High school graduate or GED completed,3,3847224
+Texas,TX,"Master's degree (MA, MS, MEng, MEd, MSW, MBA)",7,964476
+Texas,TX,"Some college credit, but not a degree",4,2882718
+Texas,TX,Unknown or Not Stated,-9,34080
