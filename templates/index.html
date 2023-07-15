@@ -25,6 +25,7 @@
   crossorigin=""></script>
 
   <!-- Plotly CDN -->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/1.33.1/plotly.min.js"></script>
   <!-- Our CSS -->
   <link rel="stylesheet" type="text/css" href="static/css/styles.css">
@@ -50,7 +51,7 @@
       <div class="col-md-10">
         <div class="panel panel-primary">
           <div class="panel-heading">
-            <h3 class="panel-title">State Information</h3>
+            <h3 class="panel-title">Information for Alaskan Females born in 2016</h3>
           </div>
           <div id="sample-metadata" class="panel-body"></div>
         </div>
@@ -79,7 +80,7 @@
       </div>
     </div>
   </div>
-<!-- The div that holds our chart -->
+<!-- The div that holds our bar chart -->
 <div id="gender-year-births"></div>
 
 <!-- The div that holds our pie chart -->
@@ -97,24 +98,17 @@
     </select>
 
     <div id="pie"></div>
-
   <!-- The div that holds our map -->
   <div id="map-id"></div>
   <script src="../static/js/rainbowvis.js"></script>
   <script src="../static/js/bridged_map.js"></script>
 
-
   <!-- Our JavaScript file -->
-<<<<<<< HEAD
-  <script src="static/js/birth.js"></script>
-<<<<<<< HEAD
-=======
-  <script src="static/js/weights.js"></script>
->>>>>>> 6518970 (weights.js, haven't added pie to index.html)
-=======
   <script src="static/js/data.js"></script>
-  <script src="static/js/births.js"></script>
->>>>>>> 972d840 (added pie chart to birth.js+index.html)
+  <script src="static/js/birth.js"></script>
+  <script src="static/js/weight.js"></script>
+
+
 
 </body>
 
