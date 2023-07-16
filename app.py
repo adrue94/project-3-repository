@@ -19,11 +19,12 @@ print(test)
 
 app = Flask(__name__)
 
-
+# Changed default template to index_granim.html
 @app.route("/")
 def US_births():
     """List all available API routes."""
-    return render_template("index.html")
+    # return render_template("index.html")
+    return render_template("index_granim.html")
 
 @app.route("/map")
 def map_page():

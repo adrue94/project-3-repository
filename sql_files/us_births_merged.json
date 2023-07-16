@@ -1,0 +1,92 @@
+--
+-- File generated with SQLiteStudio v3.4.4 on Wed Jul 12 00:47:09 2023
+--
+-- Text encoding used: System
+--
+PRAGMA foreign_keys = off;
+BEGIN TRANSACTION;
+
+-- Table: MergedYearData
+CREATE TABLE IF NOT EXISTS "MergedYearData" (
+    "State" varchar(30)   NOT NULL,
+    "State_Abbreviation" varchar(30)   NOT NULL,
+    "EduLevel" varchar(30)   NOT NULL,
+    "EduLevelCode" Int   NOT NULL,
+    "Births" Int
+);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('State', 'State_Abbreviation', 'EduLevel', 'EduLevelCode', 'Births');
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('Alaska', 'AK', '8th grade or less', 1, 2448);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('Alaska', 'AK', '9th through 12th grade with no diploma', 2, 30894);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('Alaska', 'AK', 'Associate degree (AA, AS)', 5, 29574);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('Alaska', 'AK', 'Bachelor''s degree (BA, AB, BS)', 6, 61548);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('Alaska', 'AK', 'Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)', 8, 7506);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('Alaska', 'AK', 'High school graduate or GED completed', 3, 109842);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('Alaska', 'AK', 'Master''s degree (MA, MS, MEng, MEd, MSW, MBA)', 7, 23712);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('Alaska', 'AK', 'Some college credit, but not a degree', 4, 91158);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('Alaska', 'AK', 'Unknown or Not Stated', -9, 5706);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('California', 'CA', '8th grade or less', 1, 576186);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('California', 'CA', '9th through 12th grade with no diploma', 2, 1344240);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('California', 'CA', 'Associate degree (AA, AS)', 5, 1077582);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('California', 'CA', 'Bachelor''s degree (BA, AB, BS)', 6, 3277230);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('California', 'CA', 'Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)', 8, 501528);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('California', 'CA', 'High school graduate or GED completed', 3, 3860538);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('California', 'CA', 'Master''s degree (MA, MS, MEng, MEd, MSW, MBA)', 7, 1492872);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('California', 'CA', 'Some college credit, but not a degree', 4, 3117966);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('California', 'CA', 'Unknown or Not Stated', -9, 968364);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('District of Columbia', 'DC', '8th grade or less', 1, 10206);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('District of Columbia', 'DC', '9th through 12th grade with no diploma', 2, 30042);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('District of Columbia', 'DC', 'Associate degree (AA, AS)', 5, 9144);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('District of Columbia', 'DC', 'Bachelor''s degree (BA, AB, BS)', 6, 57090);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('District of Columbia', 'DC', 'Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)', 8, 37416);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('District of Columbia', 'DC', 'High school graduate or GED completed', 3, 71328);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('District of Columbia', 'DC', 'Master''s degree (MA, MS, MEng, MEd, MSW, MBA)', 7, 68886);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('District of Columbia', 'DC', 'Some college credit, but not a degree', 4, 43830);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('District of Columbia', 'DC', 'Unknown or Not Stated', -9, 3516);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('Florida', 'FL', '8th grade or less', 1, 226548);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('Florida', 'FL', '9th through 12th grade with no diploma', 2, 654978);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('Florida', 'FL', 'Associate degree (AA, AS)', 5, 812538);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('Florida', 'FL', 'Bachelor''s degree (BA, AB, BS)', 6, 1491444);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('Florida', 'FL', 'Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)', 8, 179502);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('Florida', 'FL', 'High school graduate or GED completed', 3, 2438124);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('Florida', 'FL', 'Master''s degree (MA, MS, MEng, MEd, MSW, MBA)', 7, 594522);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('Florida', 'FL', 'Some college credit, but not a degree', 4, 1419192);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('Florida', 'FL', 'Unknown or Not Stated', -9, 79914);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('Hawaii', 'HI', '8th grade or less', 1, 4788);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('Hawaii', 'HI', '9th through 12th grade with no diploma', 2, 99678);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('Hawaii', 'HI', 'Associate degree (AA, AS)', 5, 67986);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('Hawaii', 'HI', 'Bachelor''s degree (BA, AB, BS)', 6, 136974);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('Hawaii', 'HI', 'Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)', 8, 9000);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('Hawaii', 'HI', 'High school graduate or GED completed', 3, 107670);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('Hawaii', 'HI', 'Master''s degree (MA, MS, MEng, MEd, MSW, MBA)', 7, 52452);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('Hawaii', 'HI', 'Some college credit, but not a degree', 4, 119664);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('Hawaii', 'HI', 'Unknown or Not Stated', -9, 6288);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('New York', 'NY', '8th grade or less', 1, 338580);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('New York', 'NY', '9th through 12th grade with no diploma', 2, 784788);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('New York', 'NY', 'Associate degree (AA, AS)', 5, 637890);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('New York', 'NY', 'Bachelor''s degree (BA, AB, BS)', 6, 1646484);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('New York', 'NY', 'Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)', 8, 294426);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('New York', 'NY', 'High school graduate or GED completed', 3, 1819104);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('New York', 'NY', 'Master''s degree (MA, MS, MEng, MEd, MSW, MBA)', 7, 1189734);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('New York', 'NY', 'Some college credit, but not a degree', 4, 1230792);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('New York', 'NY', 'Unknown or Not Stated', -9, 49464);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('North Carolina', 'NC', '8th grade or less', 1, 145890);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('North Carolina', 'NC', '9th through 12th grade with no diploma', 2, 413790);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('North Carolina', 'NC', 'Associate degree (AA, AS)', 5, 406146);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('North Carolina', 'NC', 'Bachelor''s degree (BA, AB, BS)', 6, 876768);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('North Carolina', 'NC', 'Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)', 8, 112260);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('North Carolina', 'NC', 'High school graduate or GED completed', 3, 1037490);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('North Carolina', 'NC', 'Master''s degree (MA, MS, MEng, MEd, MSW, MBA)', 7, 381846);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('North Carolina', 'NC', 'Some college credit, but not a degree', 4, 907968);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('North Carolina', 'NC', 'Unknown or Not Stated', -9, 12516);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('Texas', 'TX', '8th grade or less', 1, 453330);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('Texas', 'TX', '9th through 12th grade with no diploma', 2, 1740918);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('Texas', 'TX', 'Associate degree (AA, AS)', 5, 898716);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('Texas', 'TX', 'Bachelor''s degree (BA, AB, BS)', 6, 2563920);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('Texas', 'TX', 'Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)', 8, 283242);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('Texas', 'TX', 'High school graduate or GED completed', 3, 3847224);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('Texas', 'TX', 'Master''s degree (MA, MS, MEng, MEd, MSW, MBA)', 7, 964476);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('Texas', 'TX', 'Some college credit, but not a degree', 4, 2882718);
+INSERT INTO MergedYearData (State, State_Abbreviation, EduLevel, EduLevelCode, Births) VALUES ('Texas', 'TX', 'Unknown or Not Stated', -9, 34080);
+
+COMMIT TRANSACTION;
+PRAGMA foreign_keys = on;
