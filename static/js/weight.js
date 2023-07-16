@@ -27,14 +27,15 @@ function init() {
     labels: labels,
     marker: {
       colors: [
-        'rgb(0, 20, 200)',
-        'rgb(40, 60, 240)',
-        'rgb(80, 100, 40)',
-        'rgb(120, 30, 80)',
-        'rgb(160, 70, 120)',
-        'rgb(200, 110, 160)',
-        'rgb(70, 150, 175)',
-        'rgb(50, 60, 130)'
+        'rgb(108, 80, 223)',
+        'rgb(180, 80, 223)',
+        'rgb(223, 80, 195)',
+        'rgb(223, 80, 124)',
+        'rgb(223, 108, 80)',
+        'rgb(223, 179, 80)',
+        'rgb(91, 177, 243)',
+        'rgb(80, 130, 223)',
+        'rgb(158, 129, 174)'
       ]
     },
     type: "pie"
@@ -42,7 +43,11 @@ function init() {
 
   let layout = {
     height: 600,
-    width: 800
+    width: 800,
+    font: {
+      color: 'black',
+      family: 'Arial'
+    },
   };
 
   Plotly.newPlot("pie", plotData, layout);
