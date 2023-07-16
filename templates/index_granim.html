@@ -68,6 +68,9 @@
       <li class="nav-item">
         <a class="nav-link text-light" href="#map">Map</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#id="writeup"">Write-Up</a>
+      </li>
     </ul>
     </nav>
 </head>
@@ -80,7 +83,7 @@
   <canvas id="granim-basic" style="
     position: absolute;
     width: 100%;
-    height: 210vh;
+    height: 265vh;
     top: 0;
     right: 0;
     bottom: 0;
@@ -97,7 +100,7 @@
     <!-- Dashboard / Banner -->
     <div class="row">
       <div class="col-md-12 jumbotron">
-        <h1 class="display-4" style="text-align:center">US Birth Analysis Dashboard</h1>
+        <h1 class="display-4" style="text-align:center">US Birth Trends Across 2016 to 2021</h1>
         <p class="lead" style="text-align:center">AK, CA, DC, HI, FL, NC, NY & TX</p>
         <hr class="my-4">
         <p>This webpage shows birth data from the CDC; focusing on eight states that were selected for difference in region, demographic and size. Their respective datasets are represented as metadata tables, charts or an interactive map.</p>
@@ -156,54 +159,65 @@
 </div>
 
 
-    <!-- The div that holds our map -->
-    <!-- Spacing & Header For Map -->
-    <div class="col-xs-12" style="height:35px;" id="map"></div>
+  <!-- The div that holds our map -->
+  <!-- Spacing & Header For Map -->
+  <div class="col-xs-12" style="height:35px;" id="map"></div>
     <div class="row justify-content-center">
-        <div class="card col-md-12">
-            <div class="card-body">
-            <div id="map-id"></div>
-            <script src="../static/js/rainbowvis.js"></script>
-            <script src="../static/js/bridged_map.js"></script>
-            </div>
-        </div>
+      <div class="card col-md-12">
+        <div class="card-body">
+          <div id="map-id"></div>
+          <script src="../static/js/rainbowvis.js"></script>
+          <script src="../static/js/bridged_map.js"></script>
+          </div>
+      </div>
+  </div>
+
+  <!-- Spacing & Header For Write-Up --> 
+  <div class="col-xs-12" style="height:35px;" id="writeup"></div>
+  <div class="row">
+    <div class="card col-md-12">
+      <div class="card-body">
+        <h2 style="text-align:center; margin-bottom: 25px">Project 3 Write-up</h2>
+          <p>For this project, our group created a dashboard displaying various comparisons between birth rates, average weights, 
+          and genders of the babies in conjuction with the education level of the mother, state of birth and the average age of the mothers. For
+          the sake of interest, we decided to select 8 states to compare instead of comparing all 50. <br>
+          <br> 
+          In the background, we have chosen the JavaScript library Granim.js, which animates color gradients through a canvas element across the screen. More information 
+          can be found at www.sarcadass.github.io/granim/js/.<br>
+          <br>
+          From top to bottom, we first have a dropdown where the education level for the mothers of Alaskan female babies born in 2016 can be selected displaying 
+          the average birth weight (in grams), average age of the mother, number of births, and education level code.
+          <br>
+          <br>
+          Below the birth data for Alaska, our first visualization shows the nationwide total of births for male and female genders compared across
+          years ranging from 2016 to 2020. We can see the trend where overall births decline year after year and every year more males are born than females.
+          Hovering over the bars displays the number of births in multiples of one thousand.<br>
+          <br>
+          Below the birth gender visualization, we have a pie chart and associated dropdown displaying a comparison of the average birth weights in grams
+          by education level for each of the eight selected states. You can also hover over the pie chart to display the the average birth weight in grams
+          for each state, inclusive of male and female genders. Observe how, regardless of the state or education level, the average birth weight is generally
+          consistent. The percentage of the average birth weights generally range between 10.5% and 11.5% or 3,000 and 3,300 grams. <br>
+          <br>
+          Finally, we have a map showing the proportional size and location of each of the 8 selected states where you can select between one or all of the different 
+          education levels to display the number of births expressed in saturation of the color red. The darker shades of red represent lower numbers of births, while
+          the lighter shades represent higher numbers of birth. Hovering over any of the selected states, displays the total of the births for the education 
+          level(s) chosen. Upon observation, we can see that California has the highest number of births, while Alaska and Hawaii are among the lowest.
+          </p>
+      </div>
     </div>
+  </div>
 
 
-  <!-- Our JavaScript files -->
-  <script src="static/js/data.js"></script>
-  <script src="static/js/birth.js"></script>
-  <script src="static/js/weight.js"></script>
-  <script src="static/js/granim.js"></script>
-  <!-- Smooth scrolling CDN and Script -->
-  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
-  <script> var scroll = new SmoothScroll('a[href*="#"]'); </script>
-  <p>For this project, our group created a dashboard displaying various comparisons between birth rates, average weights, 
-    and genders of the babies in conjuction with the education level of the mother, state of birth and the average age of the mothers. For
-    the sake of interest, we decided to select 8 states to compare instead of comparing all 50. <br>
- <br> 
- In the background, we have chosen the JavaScript library Granim.js, which animates color gradients across the screen. More information 
- can be found at www.sarcadass.github.io/granim/js/.<br>
- <br>
-  From top to bottom, we first have a dropdown where the education level for the mothers of Alaskan female babies born in 2016 can be selected displaying 
-the average birth weight (in grams), average age of the mother, number of births, and education level code.
-<br>
-<br>
-Below the birth data for Alaska, our first visualization shows the nationwide total of births for male and female genders compared across
-years ranging from 2016 to 2020. We can see the trend where overall births decline year after year and every year more males are born than females.
-Hovering over the bars dispays the number of births in multiples of one thousand.<br>
-<br>
-Below the birth gender visualization, we have a pie chart and associated dropdown displaying a comparison of the average birth weights in grams
-by education level for each of the eight selected states. You can also hover over the pie chart to display the the average birth weight in grams
-for each state, inclusive of male and female genders. Observe how, regardless of the state or education level, the average birth weight is generally
-consistent. The percentage of the average birth weights generally range between 10.5% and 11.5% or 3,000 and 3,300 grams. <br>
-<br>
-Finally, we have a map showing the proportional size and location of each of the 8 selected states where you can select between one or all of the different 
-education levels to display the number of births expressed in saturation of the color red. The darker shades of red represent lower numbers of births, while
-the lighter shades represent higher numbers of birth. Hovering over any of the selected states, displays the total of the births for the education 
-level(s) chosen. Upon observation, we can see that California has the highest number of births, while Alaska and Hawaii are among the lowest.
+<!-- Our JavaScript files -->
+<script src="static/js/data.js"></script>
+<script src="static/js/birth.js"></script>
+<script src="static/js/weight.js"></script>
+<script src="static/js/granim.js"></script>
+<!-- Smooth scrolling CDN and Script -->
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+<script> var scroll = new SmoothScroll('a[href*="#"]'); </script>
 
-</p>
+
 </body>
 
 </html>

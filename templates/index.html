@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +10,10 @@
   <script src ="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js">
   </script>
   
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Bootstrap CSS -->
+  <!-- Using ver.4.4.1 over 3.7.7; replaces wells with cards -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
 
   <!-- D3 -->
   <script src="https://d3js.org/d3.v7.min.js"></script>
@@ -27,66 +31,117 @@
   <!-- Plotly CDN -->
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/1.33.1/plotly.min.js"></script>
+
   <!-- Our CSS -->
   <link rel="stylesheet" type="text/css" href="static/css/styles.css">
   <link rel="stylesheet" type="text/css" href="static/css/map-style.css">
+  
+  <!-- Granim JavaScript code -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/granim/2.0.0/granim.min.js" 
+  integrity="sha512-CmlPTWm5+a1Gt2YSNk2rGZVvbH3Zge6imS7M4/<vrhC8d></vrhC8d>
+  <A1RcehmLxWMqUdv8aEu7pwfTo74EtnrR></A1RcehmLxWMqUdv8aEu7pwfTo74EtnrR>
+  <8Cf8></8Cf8>KdCA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script type="text/javascript" src="static/js/logic.js"></script>
+  
+  <!-- Bootstrap Navbar Code -->
+  <nav id="navbar" class="navbar fixed-top navbar-dark bg-dark px-3">
+  <!-- Navigation Bar "Title" -->
+  <a class="navbar-brand text-white" href="#">
+  <img src="https://em-content.zobj.net/thumbs/160/microsoft/74/baby_emoji-modifier-fitzpatrick-type-5_1f476-1f3fe_1f3fe.png"
+  alt="Baby Emoji" width="30" height="30" class="d-inline-block align-text-top">
+  US Birth Data</a>
+
+  <!-- Navigation Bar Links -->
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#home">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#metadata">Metadata Table</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#gender">Gender Data</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#weight">Weight Data</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#map">Map</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#id="writeup"">Write-Up</a>
+      </li>
+    </ul>
+    </nav>
 </head>
-<body>
 
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="500" class="scrollspy" tabindex="0"> 
+
+  <!-- Granim.js Code -->
+  <!-- For some reason it's not working when I try to reference the CSS stylesheet -->
+  <canvas id="granim-basic" style="
+    position: absolute;
+    width: 100%;
+    height: 280vh;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;">
+    </canvas>
+  
+    
+  <!-- Spacing & Header For Home -->
+  <div class="col-xs-12" style="height:90px;" id="home"></div>
+    
+  <!-- Initial Contaiuner for Our Bootstrap CSS -->
   <div class="container">
+
+    <!-- Dashboard / Banner -->
     <div class="row">
-      <div class="col-md-12 jumbotron text-center">
-        <h1>US Birth Analysis Dashboard</h1>
-        <p>Use the interactive charts below to explore the dataset</p>
+      <div class="col-md-12 jumbotron">
+        <h1 class="display-4" style="text-align:center">US Birth Trends Across 2016 to 2021</h1>
+        <p class="lead" style="text-align:center">AK, CA, DC, HI, FL, NC, NY & TX</p>
+        <hr class="my-4">
+        <p>This webpage shows birth data from the CDC; focusing on eight states that were selected for difference in region, demographic and size. Their respective datasets are represented as metadata tables, charts or an interactive map.</p>
       </div>
     </div>
- 
-    <div class="row">
-      <div class="col-md-2">
-        <div class="well">
-          <h5>Select an Education Level:</h5>
-          <select id="selDataset" onchange="optionChanged(this.value)" style="width:100%"></select>
-        </div>
-      </div>
-      <div class="col-md-10">
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <h3 class="panel-title">Information for Alaskan Females born in 2016</h3>
+
+    <!-- Spacing & Header For Metadata Table -->
+    <div class="col-xs-12" style="height:0px;" id="metadata"></div>
+   
+    <!-- Card for AK Birth Data -->
+    <div class="row justify-content-center">
+        <div class="card col-md-12">
+            <div class="card-body">
+            <h2 style="text-align:center; margin-bottom: 25px">Female Birth Data For Alaska, 2016</h2>
+            <h5 class="card-title d-inline">Select an Education Level:</h5>
+            <select id="selDataset" onchange="optionChanged(this.value)" style="width:50%; float:right"></select> 
+            <div id="sample-metadata" class="panel-body" style="margin-top: 15px"></div>
           </div>
-          <div id="sample-metadata" class="panel-body"></div>
         </div>
-      </div>
-
-    
-      <div class="row">
-        <div class="col-md-6">
-          <div id="genderBarChart"></div>
-        </div>
-        <div class="col-md-6">
-          <!-- Other dashboard elements
-        </div>
-      </div> -->
-      
-          <!-- Other dashboard elements
-        </div>
-      </div>/div> -->
-    
-        <div id="gauge"></div>
-      </div>
     </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div id="bubble"></div>
-      </div>
+    
+    <!-- Spacing & Header For Gender Data -->
+    <div class="col-xs-12" style="height:35px;" id="gender"></div>
+    <div class="row justify-content-center">
+        <div class="card col-md-12">
+            <div class="card-body">
+                <div id="genderBarChart"></div>
+            </div>
+        </div>
     </div>
-  </div>
-<!-- The div that holds our bar chart -->
-<div id="gender-year-births"></div>
 
-<!-- The div that holds our pie chart -->
-<h2>Average Birth Weight by Education Level</h2>
-    <p>Numbers on hover reflect the average birth weight (in grams) from 2016 through 2021.</p>
-    <select id="selDataset">
+    <!-- Spacing & Header For Weight Data-->
+    <div class="col-xs-12" style="height:35px;" id="weight"></div>
+
+    <!-- The div that holds our pie chart -->
+<div class="row">
+  <div class="card col-md-12">
+    <div class="card-body">
+      <h2 style="text-align:center; margin-bottom: 25px">Average Birth Weight by Education Level</h2>
+      <h5 class="card-title d-inline">Select a State to Display Data: </h5>
+      <select id="selDatasetWeight" style="width:25%; float:right">
         <option value="alaska">Alaska</option>
         <option value="california">California</option>
         <option value="districtOfColumbia">District of Columbia</option>
@@ -95,19 +150,72 @@
         <option value="newYork">New York</option>
         <option value="northCarolina">North Carolina</option>
         <option value="texas">Texas</option>
-    </select>
+      </select>
+      <p>Mouseover To Display Average Birth Weight (g)</p>
 
-    <div id="pie"></div>
+      <div id="pie"></div>
+    </div>
+  </div>
+</div>
+
+
   <!-- The div that holds our map -->
-  <div id="map-id"></div>
-  <script src="../static/js/rainbowvis.js"></script>
-  <script src="../static/js/bridged_map.js"></script>
+  <!-- Spacing & Header For Map -->
+  <div class="col-xs-12" style="height:35px;" id="map"></div>
+    <div class="row justify-content-center">
+      <div class="card col-md-12">
+        <div class="card-body">
+          <div id="map-id"></div>
+          <script src="../static/js/rainbowvis.js"></script>
+          <script src="../static/js/bridged_map.js"></script>
+          </div>
+      </div>
+  </div>
 
-  <!-- Our JavaScript file -->
-  <script src="static/js/data.js"></script>
-  <script src="static/js/birth.js"></script>
-  <script src="static/js/weight.js"></script>
+  <!-- Spacing & Header For Write-Up --> 
+  <div class="col-xs-12" style="height:35px;" id="writeup"></div>
+  <div class="row">
+    <div class="card col-md-12">
+      <div class="card-body">
+        <h2 style="text-align:center; margin-bottom: 25px">Project 3 Write-up</h2>
+          <p>For this project, our group created a dashboard displaying various comparisons between birth rates, average weights, 
+          and genders of the babies in conjuction with the education level of the mother, state of birth and the average age of the mothers. For
+          the sake of interest, we decided to select 8 states to compare instead of comparing all 50. <br>
+          <br> 
+          In the background, we have chosen the JavaScript library Granim.js, which animates color gradients across the screen. More information 
+          can be found at www.sarcadass.github.io/granim/js/.<br>
+          <br>
+          From top to bottom, we first have a dropdown where the education level for the mothers of Alaskan female babies born in 2016 can be selected displaying 
+          the average birth weight (in grams), average age of the mother, number of births, and education level code.
+          <br>
+          <br>
+          Below the birth data for Alaska, our first visualization shows the nationwide total of births for male and female genders compared across
+          years ranging from 2016 to 2020. We can see the trend where overall births decline year after year and every year more males are born than females.
+          Hovering over the bars dispays the number of births in multiples of one thousand.<br>
+          <br>
+          Below the birth gender visualization, we have a pie chart and associated dropdown displaying a comparison of the average birth weights in grams
+          by education level for each of the eight selected states. You can also hover over the pie chart to display the the average birth weight in grams
+          for each state, inclusive of male and female genders. Observe how, regardless of the state or education level, the average birth weight is generally
+          consistent. The percentage of the average birth weights generally range between 10.5% and 11.5% or 3,000 and 3,300 grams. <br>
+          <br>
+          Finally, we have a map showing the proportional size and location of each of the 8 selected states where you can select between one or all of the different 
+          education levels to display the number of births expressed in saturation of the color red. The darker shades of red represent lower numbers of births, while
+          the lighter shades represent higher numbers of birth. Hovering over any of the selected states, displays the total of the births for the education 
+          level(s) chosen. Upon observation, we can see that California has the highest number of births, while Alaska and Hawaii are among the lowest.
+          </p>
+      </div>
+    </div>
+  </div>
 
+
+<!-- Our JavaScript files -->
+<script src="static/js/data.js"></script>
+<script src="static/js/birth.js"></script>
+<script src="static/js/weight.js"></script>
+<script src="static/js/granim.js"></script>
+<!-- Smooth scrolling CDN and Script -->
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+<script> var scroll = new SmoothScroll('a[href*="#"]'); </script>
 
 
 </body>
