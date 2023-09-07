@@ -1,14 +1,12 @@
 # Project-3-  Analysis to US Birth Data by State & Education
-
-
-                    Group repository for : Aldo Lee, Amanda Pham, Michael Cummings & Rupal Shah
+Group repository for : Aldo Lee, Amanda Pham, Michael Cummings & Rupal Shah
 
 ## Project Guidelines
 The following project guidelines focus on teamwork, project proposal, data sources, and data cleanup and analysis.
 
 
 ## Project Details :
-	We have data that shows U.S. births by geography, gender and educational level across a 5 year span. The base CSV file has over 5000 entries, which may be trimmed to highlight differences between different subjects / states. The database further tracks birth before and after CoVID which may reveal its relationships on population births across various states.. 
+We have data that shows U.S. births by geography, gender and educational level across a 5 year span. The base CSV file has over 5000 entries, which may be trimmed to highlight differences between different subjects / states. The database further tracks birth before and after CoVID which may reveal its relationships on population births across various states.
 
 
 ## Data and Delivery:
