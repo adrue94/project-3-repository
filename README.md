@@ -40,6 +40,3 @@ Media showing the layout of our web dashboard.
 [pageTablewebm.webm](https://github.com/adrue94/project-3-repository/assets/126558641/e3a3d7cc-cc0b-4aa5-b3e6-ce46b8ff3b8b)
 
 [pageLeaflet.webm](https://github.com/adrue94/project-3-appTest/assets/126558641/f12fdc47-7b79-4142-bcad-7fd60ec38b37)
-
-[pagePiechgart.webm](https://github.com/adrue94/project-3-appTest/assets/126558641/cd4fbe12-9739-454a-91ca-14d6b89fcc1f)
-
