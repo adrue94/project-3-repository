@@ -40,3 +40,7 @@ Media showing the layout of our web dashboard.
 [pageTablewebm.webm](https://github.com/adrue94/project-3-repository/assets/126558641/e3a3d7cc-cc0b-4aa5-b3e6-ce46b8ff3b8b)
 
 [pageLeaflet.webm](https://github.com/adrue94/project-3-appTest/assets/126558641/f12fdc47-7b79-4142-bcad-7fd60ec38b37)
+
+![pageBarStatic](https://github.com/adrue94/project-3-repository/assets/126558641/24ba7848-93ac-43d9-be52-c6af01c017bb)
+
+![pagePieStatic](https://github.com/adrue94/project-3-repository/assets/126558641/ae5a24fe-2053-477b-a463-4b4746b7f7e0)
