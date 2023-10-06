@@ -2,7 +2,9 @@
 
 ![pageHeader](https://github.com/adrue94/project-3-repository/assets/126558641/d395acfd-9185-4c5b-90e3-907341bb78c4)
 
-For the third porject our team wanted to focus on generating a dashboard that was intuitive in function and presentation, as such we have selected an accessible dataset that has U.S. births by geography, gender and educational level over a 5 year period. The base CSV file has over 5000 entries, which may be trimmed to highlight differences between different subjects / states. The database span a period before and after CoVID which can reveal its impact on population births across the United States. 
+Aldo Drue, Amanda Pham, Rupal Shah, Michael Cummings
+
+Our team focused on generating a dashboard that was intuitive in function and presentation, as such we have selected an accessible dataset that has U.S. births by geography, gender and educational level over a 5 year period. The base CSV file has over 5000 entries, which may be trimmed to highlight differences between different subjects / states. The database span a period before and after CoVID which can reveal its impact on population births across the United States. 
 
 # Study Objective: 
 1. Perform ETL on a sufficiently large dataset; housed in a SQL database and powered with Python Flask API.
